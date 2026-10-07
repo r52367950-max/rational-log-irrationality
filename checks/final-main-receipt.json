@@ -1,0 +1,156 @@
+{
+  "candidate": "RationalLogReview.Main.strict_rational_log_main",
+  "modules": [
+    "RationalLogMain"
+  ],
+  "reference": "RationalLogReview.MainReference.StrictRationalLogMain",
+  "reference_sha256": "501b3523523b0192fbce7cc7d49aa3418fe9a701b9d74bbe9f225b3095d3f713",
+  "checker_sha256": "ed00904941bc505064ce2e1561269323894fa7fa3c347bfbe9072c326f05f272",
+  "lean": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "nanoda_run": false,
+  "comparator_run": false,
+  "exported_environment_replay": false,
+  "fresh_builtin_kernel_dependency_replay": true,
+  "source_checks": [],
+  "runner": "workspace",
+  "project_dir": "/workspace/scratch/2d3f2ba277eb/proof_review/oai017/project",
+  "validator_sha256": "53374bdbe43d502fa2a8bdda106cfe19e3daab8ead49dd53ddc53a2833dc9b13",
+  "guard_source": "/workspace/scratch/2d3f2ba277eb/proof_review/oai017/verification/RationalLogReview_Main_strict_rational_log_main_Guard.lean",
+  "guard_sha256": "e3801a61a0d86f1eb1e5460660318d4a4010fb9c71df31d1c4396be7e9318173",
+  "log": "/workspace/scratch/2d3f2ba277eb/proof_review/oai017/verification/RationalLogReview_Main_strict_rational_log_main.check.log",
+  "log_sha256": "74a9ccb59594efccfbe242bd60e95284c272c58942d2afdb041ac765ddaec268",
+  "guard_exit_code": 0,
+  "independent_reference_graph_match": true,
+  "exact_type_match": true,
+  "kernel_statement_certificate_checked": true,
+  "status": "accepted",
+  "certificate_source": "/workspace/scratch/2d3f2ba277eb/proof_review/oai017/verification/RationalLogReview_Main_strict_rational_log_main_Certificate.lean",
+  "certificate_sha256": "daff70c170a837c5a5cb4e9ab79e839501118f0ede32077d0066dbf641b9e12a",
+  "certificate_log": "/workspace/scratch/2d3f2ba277eb/proof_review/oai017/verification/RationalLogReview_Main_strict_rational_log_main.certificate.log",
+  "certificate_log_sha256": "81fe3655f9028d989ba52336c62c3366abd51968ffc34c2de78a1134263ebd2c",
+  "exit_code": 0,
+  "reference_graph_constant_count": 16343,
+  "replayed_constant_count": 114072,
+  "quot_primitive_postcheck": true,
+  "quot_postcheck_evidence": "Round2MainTypeChecker.replayTheorem emits FRESH_KERNEL_REPLAY_ACCEPTED only after checking Quot, Quot.mk, Quot.lift and Quot.ind against imported ConstantInfo values",
+  "observed_transitive_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "candidate_source": "RationalLogMain.lean",
+  "candidate_source_sha256": "4d06720df00bd38a0b6fa4056764e1280fc2f92692bf3c630d9cd3ccd6dadae4",
+  "local_candidate_import_closure_sources": [
+    {
+      "module": "DistinctMultiplicativeAmple",
+      "source": "DistinctMultiplicativeAmple.lean",
+      "sha256": "cac76831778fadf8ef67cfd096867c9c4d8708eb3692118945f3fdeaecf8445b"
+    },
+    {
+      "module": "DistinctMultiplicativeContact",
+      "source": "DistinctMultiplicativeContact.lean",
+      "sha256": "5a40fa65de1c4ea6a48dd2421817b26ee88c335a276a40792da4670c20f77573"
+    },
+    {
+      "module": "DistinctMultiplicativeDegree",
+      "source": "DistinctMultiplicativeDegree.lean",
+      "sha256": "a635ba8f948f8ce3e98cecefddc0841f292ac34d50782436dced27e48e11f167"
+    },
+    {
+      "module": "DistinctMultiplicativeFibre",
+      "source": "DistinctMultiplicativeFibre.lean",
+      "sha256": "f0a08cab598d3dfc35f7a5281aff5e21ba572f3978103920de6a182ccb9baa0c"
+    },
+    {
+      "module": "DistinctMultiplicativeGlobal",
+      "source": "DistinctMultiplicativeGlobal.lean",
+      "sha256": "7c7d1a59b6886a2c406afae4f97dd7ba9f2b4372751caaab874adda23d0cbdff"
+    },
+    {
+      "module": "DistinctMultiplicativeJets",
+      "source": "DistinctMultiplicativeJets.lean",
+      "sha256": "7c2261e1865e5911e5e06365e2cb7cfac184c71fdba0d73f932c0650dfb0fb63"
+    },
+    {
+      "module": "DistinctMultiplicativePersistent",
+      "source": "DistinctMultiplicativePersistent.lean",
+      "sha256": "7d81c46110fcfe5a321092a165d4906dd15336d7731860b4f504ecfcaf4abd0a"
+    },
+    {
+      "module": "DistinctMultiplicativeRigidity",
+      "source": "DistinctMultiplicativeRigidity.lean",
+      "sha256": "61387842e28480c4cd1cfad1b750dd718381ab41a5cce4a4756b301b3b8f447e"
+    },
+    {
+      "module": "DistinctMultiplicativeStatement",
+      "source": "DistinctMultiplicativeStatement.lean",
+      "sha256": "8b0ad10626290d5dde067c61b6cbf94be35389dad602b76d5a79362c2565c37d"
+    },
+    {
+      "module": "OAIApproximationAdapter",
+      "source": "adapters/OAIApproximationAdapter.lean",
+      "sha256": "6f8dc07351f2a715e39bcfb8255062007c0f90781e80de7da82ed368a481b410"
+    },
+    {
+      "module": "OAIFormalLogAdapter",
+      "source": "adapters/OAIFormalLogAdapter.lean",
+      "sha256": "8a5830a68d7ceda66666fb5040fc3e18c9abc070f4febed997c865f276b5f04c"
+    },
+    {
+      "module": "RationalLogAnalytic",
+      "source": "RationalLogAnalytic.lean",
+      "sha256": "9b454d43f0ea44bdab43c0d09ac2867a801be556d7bfb7f8b402e21e46eeac0b"
+    },
+    {
+      "module": "RationalLogArithmeticAssembly",
+      "source": "RationalLogArithmeticAssembly.lean",
+      "sha256": "d2293bb7b7d23a643a13dfa563e9382865030b31253f79f7a3549821c9702b80"
+    },
+    {
+      "module": "RationalLogAsymptotic",
+      "source": "RationalLogAsymptotic.lean",
+      "sha256": "9cd3a8b3e847afac3a43ab76fa1eb0b13d47c8e4b6b7e2878a7f005dc894175a"
+    },
+    {
+      "module": "RationalLogGeometryParameters",
+      "source": "RationalLogGeometryParameters.lean",
+      "sha256": "8f97a4fa22d0d0f5a499c2b175a1fc6dfae9d69f1356a23c3031528cf9a8a649"
+    },
+    {
+      "module": "RationalLogMain",
+      "source": "RationalLogMain.lean",
+      "sha256": "4d06720df00bd38a0b6fa4056764e1280fc2f92692bf3c630d9cd3ccd6dadae4"
+    },
+    {
+      "module": "RationalLogMatrixBridge",
+      "source": "RationalLogMatrixBridge.lean",
+      "sha256": "ee2bc1d0bc94f360d5639ea12635bdbbc843d734a97f55a1339eaf6cadd35cd6"
+    },
+    {
+      "module": "RationalLogParameters",
+      "source": "RationalLogParameters.lean",
+      "sha256": "9c0bbd77386730695c19c05d8961dd062020c1ab8cb5c79b871d2b894a221bcb"
+    },
+    {
+      "module": "Round2MainReference",
+      "source": "Round2MainReference.lean",
+      "sha256": "501b3523523b0192fbce7cc7d49aa3418fe9a701b9d74bbe9f225b3095d3f713"
+    },
+    {
+      "module": "SupportCore",
+      "source": "SupportCore.lean",
+      "sha256": "a9152ee12181b51f437056cf8390bc22d89729c1541589e15677f1c9abbee004"
+    }
+  ],
+  "original_OAI_import_closure_count": 845,
+  "upstream_original_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "original_body_changes": 0,
+  "import_header_patches": 117,
+  "import_header_ledger_sha256": "fce4c3a2c7637c40989910225b677506c4c7e2bf6fbb7546cea9900f55f72ef7"
+}

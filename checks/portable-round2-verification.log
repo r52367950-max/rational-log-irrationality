@@ -1,0 +1,1463 @@
+MODULE: DistinctMultiplicativeRigidity
+'OAI.PiExponent.DistinctMultiplicative.exact_logarithmic_differential_forces_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.zeroth_constant_of_weighted_normal_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.center_index_unique_of_constant_y' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.all_centered_branches_have_one_index' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativePersistent
+'OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_at_most_one_center' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.eventually_persistent_derivatives_at_most_one_center' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeJets
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeJets.lean:89:12: warning: This simp argument is unused:
+  MvPolynomial.pderiv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [PiExponentApprox.polynomialFrame_zero, PiExponentApprox.logarithmicDerivation_apply,
+    MvPolynomial.pderiv_X]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeJets.lean:97:22: warning: This simp argument is unused:
+  MvPolynomial.pderiv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [MvPolynomial.pderiv_X]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeJets.lean:89:41: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeJets.lean:89:41: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'OAI.PiExponent.DistinctMultiplicative.scaleY_supportBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.formalJetAt_Y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.formalJetAt_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.formalJetAt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrameWord_vanishing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.eventually_exists_auxiliaryPolynomialAt_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.new_packets_surjective_of_power_quotients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeAmple
+'OAI.PiExponent.DistinctMultiplicativeAmple.eventual_jetRestriction_surjective_of_uniform_curve_margin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicativeAmple.eventual_jetRestriction_surjective_of_nonnegative_curve_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicativeAmple.formalCoefficientPackets_surjective_of_jetRestriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeFibre
+'OAI.PiExponent.DistinctMultiplicative.weightedDegree_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.single_center_fibre_curve_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeStatement
+OAI.PiExponent.DistinctMultiplicative.packetMapAt {m K : ℕ} (W V : Fin (m + 1) → ℚ) (H : ℚ) (y : Fin K → ℂ)
+  (c : Fin K → Fin m → ℂ) : WeightedPolynomialsAt m W H → Fin K → JetGeometry.RationalCoefficientPacket V H
+OAI.PiExponent.DistinctMultiplicative.EventualDistinctMultiplicativeInterpolation (m K : ℕ) (W V : Fin (m + 1) → ℚ) :
+  Prop
+OAI.PiExponent.DistinctMultiplicative.SeparatedDistinctMultiplicativeInterpolationStatement : Prop
+EXIT_CODE: 0
+MODULE: RationalLogAnalytic
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'RationalLogOAI017.rationalPeriodMonomial_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rationalFormalMonomialImage_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_log_error_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_log_rowScalar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_log_center_radius_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_log_row_order_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_matrix_entry_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_matrix_entry_translation_choices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_det_matrix_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_periodFunction_eq_exponentialMonomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogOAI017.rationalPeriodMonomial_coeff_eq_rowTest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.positive_rational_exp_log_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_log_periodMonomial_coeff_eq_rowTest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogOAI017.rational_log_monomial_determinant_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogOAI017.rational_log_coefficient_determinant_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.RowTranslation.exact_row_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.AnalyticCollision.translated_row_determinant_exp_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DeterminantAnalyticBound.two_alternative_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DeterminantAnalyticBound.log_norm_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_CODE: 0
+MODULE: OAIApproximationAdapter
+'OAI.PiExponent.eventualLowerBound_iff_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.two_mem_approximationExponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.irrationalityExponent_eq_two_of_eventualLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.eventualLowerBound_of_not_unbounded_approximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_has_large_exact_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.irrational_of_original_eventualLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.exponent_two_of_original_eventualLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_manuscript_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_integer_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_no_unbounded_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: OAIFormalLogAdapter
+'IrrationalityReview.OAIFormalLogAdapter.centeredMonomialImage_eq_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredEntry_eq_original_entry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredFormalMonomialImage_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation_choices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_det_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_support_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_power_entry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_power_entry_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.nonzero_rowScalar_tail_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_base_denominator_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_base_column_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_real_rational_entry_cleared_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredRationalMatrix_arithmetic_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeContact
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeContact.lean:26:29: warning: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_mul, mul_comm, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeContact.lean:219:0: warning: automatically included section variable(s) unused in theorem `OAI.PiExponent.DistinctMultiplicative.normalized_lift_zero`:
+  [Algebra.IsIntegral ℂ (IsLocalRing.ResidueField ↥(ring p))]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra.IsIntegral ℂ (IsLocalRing.ResidueField ↥(ring p))] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeContact.lean:228:0: warning: automatically included section variable(s) unused in theorem `OAI.PiExponent.DistinctMultiplicative.normalized_lift_succ`:
+  [Algebra.IsIntegral ℂ (IsLocalRing.ResidueField ↥(ring p))]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra.IsIntegral ℂ (IsLocalRing.ResidueField ↥(ring p))] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeContact.lean:319:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeContact.lean:358:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'OAI.PiExponent.DistinctMultiplicative.logWord_field_order_lower_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.logContactAt_constant_y' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.localLogIdealAt_colength_eq_contact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.familyLogWord_order_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.logarithmic_words_vanish_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.excess_implies_zeroth_center' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeContact.lean:529:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'OAI.PiExponent.DistinctMultiplicative.no_excess_of_constant_y' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.weighted_curve_inequality_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeGlobal
+'OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packets_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.Global.formalPackets_surjective_of_jetRestrictionAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_packetMapAt_surjective_of_eventual_jetRestriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_interpolation_of_curve_degrees' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeDegree
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:255:32: warning: This simp argument is unused:
+  normalized_lift_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [localLogIdealAt, normalized_lift_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:255:54: warning: This simp argument is unused:
+  normalized_lift_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [localLogIdealAt, normalized_lift_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:326:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:399:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:401:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:404:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:422:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:428:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:431:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:436:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:457:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:458:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:419:4: warning: Unused tactic linter: `change IC.embedding (CurveBlowupImage.imageMap π C hn a) ∈ j.opensRange` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:498:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:531:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:532:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:555:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:556:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:557:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:558:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:559:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/2d3f2ba277eb/proof_review/delivery2/lean-oai017/portable_project/DistinctMultiplicativeDegree.lean:560:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'OAI.PiExponent.DistinctMultiplicative.Degree.localIdealAt_length_eq_logContactAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.Degree.compactIdealAt_degree_eq_neg_contact_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.eventual_interpolation_of_separated_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: DistinctMultiplicativeExistence
+'OAI.PiExponent.DistinctMultiplicative.exists_successive_curve_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.separated_distinct_multiplicative_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: RationalLogParameters
+'RationalLogReview.Parameters.exists_dimension_margin_with_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.weightErrorCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Parameters.exists_fixed_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Parameters.exists_large_log_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Parameters.exists_successive_approximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.exists_normalized_successive_approximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.exists_selected_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.cast_rationalWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.rationalWeight_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.rectangular_multiplicity_constant_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.separated_weight_products' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.error_sum_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.error_sum_lt_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.collision_exceeds_error_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.contradiction_of_eventual_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.SelectedParameters.contradiction_of_cofinal_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.baseRadius_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Parameters.denominatorHeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Parameters.exists_rational_log_fixed_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.exists_rational_log_selected_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.eventualLowerBound_of_selected_contradictions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.strictBound_of_selected_contradictions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.exponent_two_of_selected_contradictions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Parameters.rational_log_endpoint_of_selected_contradictions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: RationalLogArithmeticAssembly
+'IrrationalityReview.RationalLogArithmeticAssembly.log_baseColumnScale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogArithmeticAssembly.baseCost_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_clearing_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogArithmeticAssembly.reciprocal_logWeights_sum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound_common_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: RationalLogMatrixBridge
+'IrrationalityReview.RationalLogMatrixBridge.scaleY_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.centeredEntry_eq_coeff_truncatedFormalJetAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_mulVec_eq_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.centered_formal_packets_surjective_iff_truncated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_surjective_of_rational_packets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_surjective_of_formal_packets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.nonzero_centered_minor_of_actual_packet_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.rationalBase_nonzero_centeredSelectedMinor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.truncationOrders_satisfy_packet_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.RationalLogMatrixBridge.actualPacket_exists_arithmetic_minor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: RationalLogGeometryParameters
+'RationalLogReview.GeometryParameters.sourceWeights_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.sourceWeights_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.sourceWeights_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.sourceWeights_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_fibre_product_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.GeometryParameters.curve_product_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_fibre_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_coordinate_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_separated_weight_products' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: RationalLogAsymptotic
+'RationalLogReview.Analytic.norm_actual_summand_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.actual_minor_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.card_choiceFamily_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.actual_minor_analytic_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.tendsto_analyticRemainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.tendsto_collisionRate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.analytic_aggregate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.ofSelected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.analyticError_ofSelected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.collisionLimit_ofSelected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.actualMinor_eq_centeredSelectedMinor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Analytic.actual_minor_arithmetic_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Analytic.arithmeticError_ofSelected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.selected_contradiction_of_cofinal_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Analytic.rational_log_endpoint_of_cofinal_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Analytic.sourceWeights_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.targetWeights_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.targetWeights_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Analytic.selected_contradiction_of_cofinal_packets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.Analytic.rational_log_endpoint_of_cofinal_packets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE: 0
+MODULE: Round2MainReference
+'RationalLogReview.MainReference.StrictRationalLogMain' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_CODE: 0
+MODULE: Round2MainTypeChecker
+EXIT_CODE: 0
+MODULE: RationalLogMain
+'RationalLogReview.Main.rational_power_centers_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Main.complex_rational_power_centers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Main.cofinal_packet_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Main.rational_log_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.Main.strict_rational_log_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_CODE: 0
+MODULE: AdapterAxiomAudit
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_3 [propext]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_mulVec_eq_coeff [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Main.rational_power_centers_injective [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rationalPeriodMonomial_shift [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.baseColumnScale.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_5 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualMatrix._proof_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification._proof_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalize_nonconstant._simp_1_2 []
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_coefficient_determinant_bound [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.mk.sizeOf_spec [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.successive_implies_separation._proof_1_2 [propext,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_mem_weighted_of_mem_pow [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.index_nonempty [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.norm_actual_summand_le._simp_1_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.rationalWeight_pos [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.sigma_theta [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart_openImmersion [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.collisionLimit_ofSelected [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_2 [propext]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.geometric_casts [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS _private.RationalLogParameters.0.RationalLogReview.Parameters.SelectedParameters.rationalWeight.match_1.eq_1 []
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredRationalMatrix.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_center_radius_budget [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.formalPackets_surjective_of_jetRestrictionAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.denominatorHeight_nonneg [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exponent_two_of_selected_contradictions [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.zeroLocus_powerIdealAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt_one [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.v0_eq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.origin_ne_centerPointAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.contradiction_of_cofinal_bounds [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.restrict_compactIdealAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_fixed_parameters [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.K_eq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredEntry_eq_original_entry [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.tendsto_collisionRate [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_support_subset_chart [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packet_surjective [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.truncatedFormalJetAt.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_X [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.arithmeticError.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.radical_powerIdealAt [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_3 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packet_eq_of_sub_mem_pow [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_Y [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_at_most_one_center [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.excess_implies_zeroth_center [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centeredAt [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.coordinates_generate [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrameWord [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_7 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.centerPointAt._proof_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.error_sum_lt_gap [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalizeCoordinates._proof_1 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.norm_actual_summand_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_1 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.exists_successive_curve_weights [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.rationalWeight.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredMonomialImage_eq_scaled [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.aeval_scaleY [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt_Y [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification_integral [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.aeval_normalize_scaleY [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.rowWeight_le_indexWeight_of_ne_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_large_log_approximation [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_normalized_successive_approximations._proof_1_1 [propext, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalized_lift_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_restrict [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.K_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_13 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.sourceWeights_succ [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y._simp_1_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_4 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification_locallyNoetherian [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt_nonneg [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart_quasiCompact [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_2 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.approximations [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rationalPeriodMonomial_coeff_eq_rowTest [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.logCutoff._proof_1 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.trdeg_one [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.baseRadius_bounds [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_mul [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_one [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.sourceWeights_cast [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.rowWeight.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.w0_eq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.F0_large [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.targetWeights_cast [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.map_polynomialIdealAt_eq_selected [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.targetWeights_cast [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalize_nonconstant [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.F0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_6 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actual_minor_arithmetic_lower_bound [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.norm_scalar_product_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_periodMonomial_coeff_eq_rowTest [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.chartIso [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.wstar_attained [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_dimension_margin_with_height [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetEvaluationAt._proof_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_surjective_of_rational_packets [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualRowCount_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.center_index_unique_of_constant_y [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_7 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualMinor.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centers_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.rationalBase_nonzero_centeredSelectedMinor [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_clearing_bound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.eventually_exists_auxiliaryPolynomialAt_nat [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.choiceScalar.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_monomial_determinant_bound._simp_1_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt_congr_coordinates [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.exponent_two_of_original_eventualLowerBound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification._proof_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.zeroth_constant_of_weighted_normal_comparison [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_coordinate_ratio [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.targetWeights_succ [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.card_choiceFamily_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.r_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_6 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.exact_logarithmic_differential_forces_constant [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.scaleY_surjective [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_support [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_supportBound [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.successive_implies_separation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_4 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.sum_rowWeight_eq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation_choices [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Main.cofinal_packet_interpolation [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.coordinatePole_constant [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualMean_bounds [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt_X [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyLogWord_order_lower [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_11 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt_eq_span [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.weightErrorCoefficient._proof_2 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.mem_placesAt [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_6 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.wstar_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.nonnegative_separated_curve_degrees [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.v0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.mk.sizeOf_spec [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor._proof_1 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.parameterFinite [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.center_point_isClosed [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredFormalMonomialImage_coeff [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_7 [propext]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.mk.inj [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.sourceWeights_cast [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.polynomialIdealAt_pow_le [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rationalPeriodMonomial_coeff_eq_rowTest._simp_1_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.w_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rationalFormalMonomialImage_coeff [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_1 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.selected_contradiction_of_cofinal_packets [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_5 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centered_det_translation [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.initial_margin [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.mk.inj [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrame [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centers.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centers_succ [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredFormalMonomialImage.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.wstar_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Main.strict_rational_log_main [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.analytic_aggregate [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.map_powerIdealAt_aeval [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_det_matrix_translation [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.F0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.localIdeal_compactIdealAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.mk.congr_simp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.rational_log_endpoint_of_selected_contradictions [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrameWord [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.logCutoff._proof_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification.congr_simp [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.zeroth_constant_of_weighted_normal_comparison._simp_1_1 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualMean.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.nonzero_centered_minor_of_actual_packet_surjective [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt._proof_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalized_lift_succ [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.commonDenominator.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.targetWeights.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_volume [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_packetMapAt_surjective_of_curve_degrees [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.theta_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.cast_rationalWeight [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_separated_weight_products [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.eventually_persistent_derivatives_at_most_one_center [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.rationalWeight.eq_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.eval_centerAt_scaleY [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.aeval_scaleY_inverse [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.polynomialIdealAt.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart_over [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centered_real_rational_entry_cleared_gaussian [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centered_normalize [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.weighted_curve_inequality_at [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.sourceWeights_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.collisionConstant._proof_2 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicativeAmple.eventual_jetRestriction_surjective_of_uniform_curve_margin [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_successive_approximations [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.pointAt_section [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS _private.RationalLogParameters.0.RationalLogReview.Parameters.SelectedParameters.rationalWeight.match_1.eq_2 []
+ADAPTER_AXIOMS RationalLogOAI017.rationalPeriodMonomial.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY._proof_1 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.mk.injEq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.v0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_matrix_entry_translation [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrame [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.eta_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.sourceWeights.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData._simp_1_3 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_5 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.ExceedsSuccessiveBounds._proof_1 []
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.normalizationFinite [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_6 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt._proof_2 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.analyticError_ofSelected [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.hyperplane_ample [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_rowScalar_bound [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.no_excess_of_constant_y [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.mk.inj [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.targetWeights_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.localLogIdealAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicativeAmple.formalCoefficientPackets_surjective_of_jetRestriction [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_3 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.localIdealAt_length_eq_logContactAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.new_packets_surjective_of_power_quotients [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.sigma_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrame_X [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.R0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.tendsto_analyticRemainder [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_support_subset [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.affineFrame_exists [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.essFiniteType [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.match_1.eq_1 []
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.contradiction_of_eventual_bounds [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.centeredMatrix._proof_1 [propext]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredEntry.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_2 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.targetWeights_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeGlobal.0.OAI.PiExponent.DistinctMultiplicative.Global.scaleY_comp_inverse [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.fixedWeights_lower [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.mk.injEq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt_succ [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt_nonneg._simp_1_2 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.weightErrorCoefficient_nonneg [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualMinor_eq_centeredSelectedMinor [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.separated_distinct_multiplicative_interpolation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.support_compactIdealAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.rectangular_multiplicity_constant_bound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.packets_surjective_of_polynomialIdealAt_quotient [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_4 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.rowOrder_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rationalFormalMonomialImage.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.w_log [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actual_minor_expansion [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.eventual_interpolation_of_separated_weights [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_matrix_entry_translation_choices [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.centerMorphism_eq_centeredLiftAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_volume [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt.congr_simp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_1 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.compactIdealAt_degree_eq_neg_contact_sum [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.scale.congr_simp [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart._proof_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt_constant_y [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.centered_formal_packets_surjective_iff_truncated [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.structure_proper [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.eventually_exists_auxiliaryPolynomialAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.weight_growth [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_periodFunction_eq_exponentialMonomial [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_inv_left [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredMonomialImage.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.truncationOrders_satisfy_packet_weight [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt._proof_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.sourceWeights_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.rational_power_entry_translation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.w0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.low_transverse_capacity [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected.congr_simp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.lowIndexCount_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalizeCoordinates_zero [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.targetWeights_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicativeAmple.eventual_jetRestriction_surjective_of_nonnegative_curve_degree [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.placesAt._proof_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.indexWeight.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.wstar_lower [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound_common_error [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.indexWeight_nonneg [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_no_unbounded_approximants [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights_product [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.mk.sizeOf_spec [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.MainReference.StrictRationalLogMain._proof_1 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.eventualLowerBound_of_selected_contradictions [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.rational_log_endpoint_of_cofinal_interpolation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_interpolation_of_curve_degrees [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict._proof_1_1 [propext,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualMatrix.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.selected_contradiction_of_cofinal_interpolation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.all_centered_branches_have_one_index [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_error_exp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalize_constant_y [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.mk.sizeOf_spec [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.K_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.w0_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.fixedWeights.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.familyContactAt.congr_simp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial.eq_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.weightedDegree_constant [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.collisionConstant_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.norm_choiceMatrix_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_manuscript_bound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.map_powerIdealAt_eq_top_of_transcendental [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.rational_log_endpoint_of_cofinal_packets [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.translationError.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.generic_coordinates [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.centered_of_closedPoint_eqAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_12 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_rational_log_selected_parameters [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.dimension_margin [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_section_supportBound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.centeredEntry_eq_coeff_truncatedFormalJetAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt_succ._simp_1_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.map_powerIdealAt_eq_top_of_transcendental._simp_1_1 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetEvaluationAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.sigma_volume [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.sigma_centers [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y._simp_1_2 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.weighted_curve_inequality_at_of_model [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_packetMapAt_surjective_of_eventual_jetRestriction [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logWord_field_order_lower_at [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.separated_weight_products [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.weightErrorCoefficient._proof_1 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.localLogIdealAt_colength_eq_contact [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_product_ratio [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.epsilon_lt_gap [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.rational_power_entry [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actual_minor_analytic_bound [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.origin._proof_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.rational_base_column_scale._proof_1_1 [propext, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification._proof_3 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.A_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Main.complex_rational_power_centers [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt._proof_2 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.weight_margin [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.ManuscriptStrictBound._proof_1 [propext]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.scaleY_monomial [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_3 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.mk.injEq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_2 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_normalized_successive_approximations [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.reciprocal_logWeights_sum_le [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_rational_log_fixed_parameters [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_integer_bound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_surjective_of_formal_packets [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Main.rational_log_main [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centerAtIndex._proof_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.centerAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.irrational_of_original_eventualLowerBound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logarithmic_words_vanish_at [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.eq_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.volume_eq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.logCutoff_strict [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_monomial_determinant_bound [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.mk.inj [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData._simp_1_2 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.successive_implies_separation._proof_1_1 [propext,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt_eq_map_inverse [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packets_surjective [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.rational_log_row_order_budget [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_8 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.zeroLocus_finset_prod_powerIdealAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrameWord_vanishing [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.match_1.eq_2 []
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.placesAt.congr_simp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.compactIdealAt_comap_ne_bot_of_generic [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.arithmeticError_ofSelected [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.wstar_lower [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.centerAtIndex.congr_simp [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.volume_lt_one [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_9 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.fixedWeights_one_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.formalJetAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.mk.injEq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.indexWeight_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.collisionConstant._proof_1 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.error_sum_eq [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt_pairwise_isCoprime [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.logContactAt._proof_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.baseCost_le._proof_1_1 [propext, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalizeCoordinates_succ [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredRationalMatrix_arithmetic_lower_bound [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.collision_margin [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.OAIAdapter.rational_has_large_exact_representation [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_5 [propext]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.compactIdealAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_7 [propext]
+ADAPTER_AXIOMS RationalLogReview.Parameters.strictBound_of_selected_contradictions [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.map_polynomialIdealAt_eq_selected._simp_1_1 []
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.q_two_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.actualPacket_exists_arithmetic_minor [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.normalization_over [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.approximations [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart._proof_1 [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.baseCost_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.affineIdealAt.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification_nonempty [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_support_ne_top [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogArithmeticAssembly.log_baseColumnScale [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogOAI017.positive_rational_exp_log_center [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.scaleY_inv_right [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.single_center_fibre_curve_inequality [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.rational_base_column_scale [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_shift [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.range_pointAt [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalize_nonconstant._simp_1_1 []
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.chart_nonempty [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.parameter_transcendental [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.nonzero_rowScalar_tail_budget [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.exists_selected_parameters [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.OAIFormalLogAdapter.rational_base_denominator_identity [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.epsilon_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS IrrationalityReview.RationalLogMatrixBridge.scaleY_monomial._simp_1_1 []
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.w_one_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.actualRowCount.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.SelectedParameters.collision_exceeds_error_sum [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.Data.radius_budget [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.m_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.fixedWeights_pos [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_4 [propext]
+ADAPTER_AXIOMS RationalLogReview.Analytic.rationalCenters.eq_1 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Analytic.ofSelected._proof_10 [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS _private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights_one_le [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.normalize_constant_y._simp_1_1 []
+ADAPTER_AXIOMS RationalLogReview.Analytic.norm_choiceScalar_le [propext, Classical.choice, Quot.sound]
+ADAPTER_AXIOMS OAI.PiExponent.DistinctMultiplicative.Global.support_affineIdealAt [propext,
+ Classical.choice,
+ Quot.sound]
+ADAPTER_AXIOMS RationalLogReview.Parameters.FixedParameters.epsilon_le_half [propext, Classical.choice, Quot.sound]
+ADAPTER_THEOREM_COUNT 459
+EXIT_CODE: 0
+MODULE: OAI017Review
+EXIT_CODE: 0

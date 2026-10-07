@@ -1,0 +1,6 @@
+'OAI.PiExponent.DistinctMultiplicative.exists_successive_curve_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.DistinctMultiplicative.separated_distinct_multiplicative_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

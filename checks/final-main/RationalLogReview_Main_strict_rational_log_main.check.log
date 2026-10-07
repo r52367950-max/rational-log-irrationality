@@ -1,0 +1,6 @@
+INDEPENDENT_REFERENCE_GRAPH_MATCH 16343 constants
+FINAL_TYPE_MATCH RationalLogReview.Main.strict_rational_log_main
+FINAL_TRANSITIVE_AXIOMS RationalLogReview.Main.strict_rational_log_main [propext, Classical.choice, Quot.sound]
+FRESH_KERNEL_REPLAY_START RationalLogReview.Main.strict_rational_log_main 114072 constants
+FRESH_KERNEL_REPLAY_ACCEPTED RationalLogReview.Main.strict_rational_log_main 114072 constants
+REPLAY_TRANSITIVE_AXIOMS RationalLogReview.Main.strict_rational_log_main [propext, Classical.choice, Quot.sound]

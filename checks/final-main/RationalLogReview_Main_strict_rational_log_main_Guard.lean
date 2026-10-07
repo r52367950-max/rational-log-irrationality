@@ -1,0 +1,8 @@
+import Round2MainReference
+import Round2MainTypeChecker
+import RationalLogMain
+
+set_option autoImplicit false
+
+#verify_and_replay_rational_log_main RationalLogReview.Main.strict_rational_log_main
+

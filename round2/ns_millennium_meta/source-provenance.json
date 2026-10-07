@@ -1,0 +1,214 @@
+{
+  "repository": "openai/NavierStokesAndEuler",
+  "commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "tree_entries": 2673,
+  "tree_truncated": false,
+  "retrieved_files": 25,
+  "verified_files": 25,
+  "files": [
+    {
+      "path": "ComparatorChallenges/NavierStokes.json",
+      "bytes": 375,
+      "sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
+      "git_blob_sha1": "b5fd32b1211faf7d282dac09d70be5527da9f486",
+      "upstream_git_blob_sha1": "b5fd32b1211faf7d282dac09d70be5527da9f486",
+      "verified": true
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.lean",
+      "bytes": 13031,
+      "sha256": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61",
+      "git_blob_sha1": "673fb19e26e60818d446363afd953f618719f99b",
+      "upstream_git_blob_sha1": "673fb19e26e60818d446363afd953f618719f99b",
+      "verified": true
+    },
+    {
+      "path": "ComparatorChallenges/README.md",
+      "bytes": 665,
+      "sha256": "f28c5f581d7bbc9504db467b88686a89ad5a94e4fd38b48a1866ae6224b5a1d8",
+      "git_blob_sha1": "bbe080b9fa8fd091617914290eb815e831cf16b2",
+      "upstream_git_blob_sha1": "bbe080b9fa8fd091617914290eb815e831cf16b2",
+      "verified": true
+    },
+    {
+      "path": "Euler.lean",
+      "bytes": 30,
+      "sha256": "1f1dabe1950245aee0ae073e61eaeb3cfe47f0c18a9ba7b43ba325cb587964c7",
+      "git_blob_sha1": "1b54ba6c2e54d93e397e754015e6fa76907b44f1",
+      "upstream_git_blob_sha1": "1b54ba6c2e54d93e397e754015e6fa76907b44f1",
+      "verified": true
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "upstream_git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ActualCandidateAssembly.lean",
+      "bytes": 65609,
+      "sha256": "bba2f74a938039caec486ca6a35576efd21e6fe35c1ba695e4d21609d89b8a94",
+      "git_blob_sha1": "820bd414afdb55d4d74a78be357311e6b234a2e4",
+      "upstream_git_blob_sha1": "820bd414afdb55d4d74a78be357311e6b234a2e4",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/CandidateConsequences.lean",
+      "bytes": 11789,
+      "sha256": "4dbfba3964bbff446b34f92bb4047d36f2df07a28c6b83caeb5dfa7f6a16f101",
+      "git_blob_sha1": "5f3eae72b029ea2503f9c2eaa20a1b11685062ff",
+      "upstream_git_blob_sha1": "5f3eae72b029ea2503f9c2eaa20a1b11685062ff",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorBridge.lean",
+      "bytes": 12624,
+      "sha256": "cbb7731d5dc36363f0d4c3d1d3aba572302de4dc474d3a329b975d8d646c50ab",
+      "git_blob_sha1": "e96fccf4e759e40d58fb9c6dc093383fa1719f5b",
+      "upstream_git_blob_sha1": "e96fccf4e759e40d58fb9c6dc093383fa1719f5b",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorDefinitions.lean",
+      "bytes": 10979,
+      "sha256": "8d90e0f9eee14f8b01773852083a02fd58bda59d4de2abb60d1787bbc9f6ebf4",
+      "git_blob_sha1": "d92c81ac99c1139e54c181c97d9021e975e23b7a",
+      "upstream_git_blob_sha1": "d92c81ac99c1139e54c181c97d9021e975e23b7a",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorR3Theorem.lean",
+      "bytes": 2098,
+      "sha256": "d05cd1c55e78709dabe1996546eb6ddaaa46e602d2ef1b05c6e2085320781207",
+      "git_blob_sha1": "3d651180befa2348b02d4507a7892940eeb89abd",
+      "upstream_git_blob_sha1": "3d651180befa2348b02d4507a7892940eeb89abd",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorSolution.lean",
+      "bytes": 1359,
+      "sha256": "52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227",
+      "git_blob_sha1": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+      "upstream_git_blob_sha1": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorTheorem.lean",
+      "bytes": 2711,
+      "sha256": "629c992327e531611c20165eb14db24edcabcf8f646a1d2689be9ac6fe2a9c68",
+      "git_blob_sha1": "b92d0efd0a59660d9fd484a35fc2c45c4829b65f",
+      "upstream_git_blob_sha1": "b92d0efd0a59660d9fd484a35fc2c45c4829b65f",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/PeriodicComparatorSolution.lean",
+      "bytes": 1513,
+      "sha256": "3959b5ea8f674ed0798d29618f086688db6b37dfcf7dd1676477811d819896dd",
+      "git_blob_sha1": "07795755a45273a2c755e21db1d7d378f6beb841",
+      "upstream_git_blob_sha1": "07795755a45273a2c755e21db1d7d378f6beb841",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/PeriodicPaperComparator.lean",
+      "bytes": 2674,
+      "sha256": "cc43036123e52c0f2aa895a9c6cc2ef8f222831f0fbb6a1988b6414567ff10a2",
+      "git_blob_sha1": "8362165515d86500f55404382e3cf11689b0a584",
+      "upstream_git_blob_sha1": "8362165515d86500f55404382e3cf11689b0a584",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/PeriodicPaperTheorem.lean",
+      "bytes": 8048,
+      "sha256": "ca8ff98ef146dbbc136b0837888565385ad035f6e47b606d0bb075156c1ff7b2",
+      "git_blob_sha1": "e7cdc29594f635a0eebf6967352a148be1b818e9",
+      "upstream_git_blob_sha1": "e7cdc29594f635a0eebf6967352a148be1b818e9",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/ProblemStatement.lean",
+      "bytes": 8107,
+      "sha256": "d2f5cdf24a060acd41011b50492e89058991965e18d2cb797c58d915f95af633",
+      "git_blob_sha1": "f58563f682784537e1988552e5fb209210ea8300",
+      "upstream_git_blob_sha1": "f58563f682784537e1988552e5fb209210ea8300",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/R3/ActualCandidate.lean",
+      "bytes": 7494,
+      "sha256": "93d728679c20650ca6ae256b8f96618aaaf004904b589d8f69da759e740046fa",
+      "git_blob_sha1": "fef263fb3e99e1d452885a30ba1bdf237b27f7c1",
+      "upstream_git_blob_sha1": "fef263fb3e99e1d452885a30ba1bdf237b27f7c1",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/R3/ComparatorBridge.lean",
+      "bytes": 3739,
+      "sha256": "67ce14dd70f976851962b9129cd195913e34b2bc353f78913b7c5b77e44b9dbd",
+      "git_blob_sha1": "386c0981a0bdd32b68386f89113180d7f7666ea9",
+      "upstream_git_blob_sha1": "386c0981a0bdd32b68386f89113180d7f7666ea9",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/R3/ProblemStatement.lean",
+      "bytes": 10258,
+      "sha256": "8b0a28b3b93fb8dfcf967d0082a5a2829a5e5f079de6662c846417057b0856d7",
+      "git_blob_sha1": "5615bd49a5d2077a63361df1c01369913933f97d",
+      "upstream_git_blob_sha1": "5615bd49a5d2077a63361df1c01369913933f97d",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes/R3/Theorem.lean",
+      "bytes": 3850,
+      "sha256": "e896ba297671c33d516d41fa47e7e186438b71ec14ab0738d3d3fc9e4df341cb",
+      "git_blob_sha1": "4151e7c90a9de31d8454fc49932b066d475bed08",
+      "upstream_git_blob_sha1": "4151e7c90a9de31d8454fc49932b066d475bed08",
+      "verified": true
+    },
+    {
+      "path": "NavierStokes.lean",
+      "bytes": 72,
+      "sha256": "aa93efae7c7d7e44f2bb421d85587e7e9610e03ce67e15a15ed86acad2d014a1",
+      "git_blob_sha1": "999bc01cfa63e5cdae0185b3a4f47a76f8283df9",
+      "upstream_git_blob_sha1": "999bc01cfa63e5cdae0185b3a4f47a76f8283df9",
+      "verified": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 2470,
+      "sha256": "25f3752edf6d674064b67f995691ddd15bffaf347822086cba3fbd5333781f49",
+      "git_blob_sha1": "fd962639f68bc87d7a3087a3a5b85d4303276658",
+      "upstream_git_blob_sha1": "fd962639f68bc87d7a3087a3a5b85d4303276658",
+      "verified": true
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3810,
+      "sha256": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09",
+      "git_blob_sha1": "f07a8454cb6200d90bcc4371bc9965e9f8f46c7d",
+      "upstream_git_blob_sha1": "f07a8454cb6200d90bcc4371bc9965e9f8f46c7d",
+      "verified": true
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 662,
+      "sha256": "97b2804da5b9a2cd0aaf44ce42b7c39e9947beff9d2ac01a11e0d3d867af1c09",
+      "git_blob_sha1": "9ebc030daf98b40aeb90636ef2016d791ad5dd3a",
+      "upstream_git_blob_sha1": "9ebc030daf98b40aeb90636ef2016d791ad5dd3a",
+      "verified": true
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 29,
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "git_blob_sha1": "b814d987e0c93cb99938be934d9b277778495ba1",
+      "upstream_git_blob_sha1": "b814d987e0c93cb99938be934d9b277778495ba1",
+      "verified": true
+    }
+  ],
+  "errors": [],
+  "kernel_build_run": false,
+  "comparator_run": false,
+  "scope": "Selected primary sources for statement/workflow audit only; not a full checkout/build."
+}

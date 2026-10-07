@@ -1,0 +1,1784 @@
+{
+  "pristine_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "checked_original_modules": 869,
+  "body_changes": 0,
+  "changed_import_headers": 117,
+  "normalization": "Remove complete lines beginning import followed by a space; all remaining bytes match exactly",
+  "patches": [
+    {
+      "path": "OAI/NumberTheory/PiExponent/Ampleness/AmpleThresholdPolynomial.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Calculus.Deriv.Polynomial",
+        "import SupportCore"
+      ],
+      "original_sha256": "15835d8f6c8a9d9fa7724b703e4e5564aa99c4bfb57bce3fbe50b7edac5db638",
+      "working_sha256": "e6e5b47d5cbc96d8a2fcc8648a4b9359d7a1c670e113a3ff4da8d0353e838bce",
+      "body_sha256": "b7a02090f7af820ef0c7a6042a79011050836901ff73d2449ba9432f40e44c5f"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Ampleness/BlowupSchemeExt.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "65f59339d4a9e56c3cc5744f965ec2c0e56e50b2755450b5742b81782abb9cbc",
+      "working_sha256": "8f3e068d1a49288fdb3306cde28d6b8f689a722af1f48b0e0295c2c1be2a5049",
+      "body_sha256": "888a2fb9aef41f9a98af52bea608031411b250c82b31bdc8f559261913ea85a2"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Ampleness/CoherentAffineFinite.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.Modules.Tilde",
+        "import SupportCore"
+      ],
+      "original_sha256": "5394577a97301d1ab7837340765bb14e62f2d868f012695a6b09f115b7d671cc",
+      "working_sha256": "63404e2cd8939f0ce5f61ab941232d1bdde2eb80ec3d051c1e54cad212e9d751",
+      "body_sha256": "da7080285a1d983a21c80b52857cdcea78d2d42e510d4bb5d92a307227181fbc"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Ampleness/CurveBlowupImageBase.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Ampleness.NumericalAmpleness",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveFunctionFieldCompatibility"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Ampleness.NumericalAmpleness",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveFunctionFieldCompatibility"
+      ],
+      "original_sha256": "f7d353e352b905295c06f1607f6b45588542a3c09a3f2d19644a8dd137404f29",
+      "working_sha256": "cd433ca35df6d6aa5f6fbdb8a339019c7e2e939694c9e7521dfdacccb9376b90",
+      "body_sha256": "064e21c9576882ef4e4359ebee30932603aee969c27e369c50e330161cbd859d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Ampleness/NefAmple.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "e746b18bcee9c714c57b8b411a0d426362bc1898ae6ead8b07f3bf82274e5309",
+      "working_sha256": "9e38eb52e75d229536737b342d63f5a613f1155a5b761753baa36657201d1b23",
+      "body_sha256": "1ff6310355ff318d0291e00d528ebc4b4878beca641c0a5ccac5b805fc6a53cd"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Ampleness/ReesPushdown.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "9cc2c2b097e4d6deef50617482cbbc7c6143cf978ee6036689cb4461c9999d86",
+      "working_sha256": "921cfb34731dcae8f1bba694f2f6407d8d3a60fe7cb52ac4d1db0383cb3843c7",
+      "body_sha256": "27871f76dbad68718b84bac8db3608fdf9ecae6e09f36d3304952dbb67e5d204"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/AnalyticCollision.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "8c8a61797d1395e7b19a7bdc53a01e582bcf5878ca46415d440b0a16f6e15b4a",
+      "working_sha256": "1f31a92d6bbce1a1ccd71731362b7ea1992e3ebc26f813400531af51ebfd628e",
+      "body_sha256": "314b390377adcec4966bca45072c1a177167902ad50a7e87f56e3fd03608252e"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/CollisionCombinatorics.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "85e2ba7f5119ff808b28ab3e17e5a65fc3559101f27a22f0efed6b154a8286aa",
+      "working_sha256": "082140d482ac824ade9307046012be84843e0289e87111c5321f2e58de71770a",
+      "body_sha256": "0b3de37e62b328c8e2a1eb04f1f852e2d6351db07708948d810d86c3d3ac9987"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/CollisionLimit.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Analysis.FiniteDeterminantCollision"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Analysis.FiniteDeterminantCollision"
+      ],
+      "original_sha256": "c1dea0161639bf543a6a2bf585592368acc3496612fc8341a517ff3d3c6fbea3",
+      "working_sha256": "0d3bdd52d8656c2be8cefd72b41aaf390d066a365107554bc0e341ae54a23971",
+      "body_sha256": "579ac9ad509a424b4bb162b6cce04c367cdc5a9baa424b07f962f93744fc3fd8"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/CollisionOccupancy.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "3720974a98a60214028552bc23281dd5cbc8d022791f4242421b61c086c85ae8",
+      "working_sha256": "2975f7065d806e48e346cf60654bc6de4d05e150fb874d42ae0b4fa6f252f723",
+      "body_sha256": "a49d249016bef353e898b10aeb18aba1f1d1c0c22ebc378e6f5dd89d57ae9817"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/FiniteDeterminantCollision.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Analysis.CollisionGeometricSum"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Analysis.CollisionGeometricSum"
+      ],
+      "original_sha256": "f296f43d9cd5122860cf908953f0ca4a03e59d77ec7ce1a7f7c9610a6a0c7bc3",
+      "working_sha256": "8dc23b433887b819f2178025dfe3c33de39d7f82dee33a2b6799354726ba9c58",
+      "body_sha256": "9cdfd6e60d1fbe47491925a14e0ce79b48d52c501d05517234a1e0b98d7e9600"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/FiniteSpacing.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "9b4a3e16b06f3efa60f5210549d56a740ad748601b2f7056dc06e88370b8f561",
+      "working_sha256": "6325755be0766dc43333b8a141cc1a27a74f182506e9625304a6ac1103b0bd06",
+      "body_sha256": "0338610a7942779ef205127c0d96e900192594d64b5bb09671e437f1236f6632"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Analysis/LogTailAnalytic.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Analysis.AnalyticCollision",
+        "import OAI.NumberTheory.PiExponent.Approximation.RowTranslation"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Analysis.AnalyticCollision",
+        "import OAI.NumberTheory.PiExponent.Approximation.RowTranslation",
+        "import Mathlib.Analysis.SpecialFunctions.Complex.Analytic"
+      ],
+      "original_sha256": "2fdbdcc5ab684097dc6fb4ee041023fc7c51229437c31469b1f71b0bcc767780",
+      "working_sha256": "676cd2979b55971363ba256ecb694d3b582bcd1bd47c09ca0be862b9f29e8cde",
+      "body_sha256": "a5671ae66a879b8223074a6859e9f9d9c2a19bf0bd74ff3579e6b03fe63fbf03"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/AddEquivSignedSum.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "71a4367848e9a94f3c69f2af190cffc8b9e51dad120eac6aed3e5c0ee6b4bfc0",
+      "working_sha256": "e2ae442c10ce784b5a03056b921679606a3d36a83197991dd2fdf90db235a6ee",
+      "body_sha256": "6be57c8be894f0390b15025ff323cd88ef94e963470ca2985dab2f750efc6e61"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/AdditiveKernelTransport.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "e4600d4c4a65e21ecf9f8fe936fbc62c9f650899fabcf364a09d29ce6fc0198c",
+      "working_sha256": "4009bfae5d007ffd46f6f716e2b7bdb2422c6e9c36dc444c80fc81d174dd7199",
+      "body_sha256": "3d7c81302a8d7c99f41ef75409c390758708f4b9aad9f6156c91fae0020fa8a8"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/AdmissibleParameters.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.Parameters",
+        "import OAI.NumberTheory.PiExponent.Approximation.Sigma",
+        "import OAI.NumberTheory.PiExponent.Approximation.SuccessiveApproximations",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightErrorMargin",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightSeparation",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightSeparationConstant",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.Dimension"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.Parameters",
+        "import OAI.NumberTheory.PiExponent.Approximation.Sigma",
+        "import OAI.NumberTheory.PiExponent.Approximation.SuccessiveApproximations",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightErrorMargin",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightSeparation",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightSeparationConstant",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.Dimension"
+      ],
+      "original_sha256": "01b0c8deb657a062a60ed0cfe932b667ce45d874487e81176764620565885af2",
+      "working_sha256": "36518c2facc65546b61c13099b69977e24f6a1e86edb87e9daf00f9ff99d6ee1",
+      "body_sha256": "e905c5d4b91ea29717cd2ded77dbc9393e931c4b98b7b97da3c64044dec70241"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/ApproximationCenters.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "b1aeeaab9c56cdd9e0efd8933b64ccb6c9e7ca3b689bd431aa071f46a7882b57",
+      "working_sha256": "335bd7c1252eb5220881e9f22119ba3c42bc14f281aea608203461b35be1bf44",
+      "body_sha256": "3fc295f23a35b58aeb13eb57b1eb4b3c0ef8e3489f47ff726ca882d381ba6f6f"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/ApproximationSelection.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "664de162af45b56f0d935202a62123c0b340706e37f6ca7b1e5f483ee25c3f3f",
+      "working_sha256": "b21de5dd0ab74667feab52169bb6b099f4ddbe7fdb278750c95fd0446aec75bb",
+      "body_sha256": "d3a481b32293340ed3e00d081cf757fbd41b05cf9101f1ec84317e04956849a4"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/ClosedImmersionSerreTransfer.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.ClosedPushforwardCoherent"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree",
+        "import OAI.NumberTheory.PiExponent.Approximation.ClosedPushforwardCoherent"
+      ],
+      "original_sha256": "39d907a2c03c9fe0ed16a6ea29be34200761e776d4a88a4165e4cec994bec678",
+      "working_sha256": "7bc3a61d40bf2a31f13338fb894ee57725993671f9681a7dbf34de51bcfe160c",
+      "body_sha256": "cab1b2227794329b4ffaa7483d836596ae54c05dc7169c1c3247880b57c1b555"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/ClosedPushforwardCoherent.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.ClosedPushforwardAffine",
+        "import OAI.NumberTheory.PiExponent.Approximation.OpenBaseChange",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.FiniteGlobalPresentation"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Category.Grp.Zero",
+        "import OAI.NumberTheory.PiExponent.Approximation.ClosedPushforwardAffine",
+        "import OAI.NumberTheory.PiExponent.Approximation.OpenBaseChange",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.FiniteGlobalPresentation"
+      ],
+      "original_sha256": "81a99980383371810e0a1d8e5f321e442c93c12b914df15c208292d6193f4708",
+      "working_sha256": "569c673ac08cff648d6472de13a52b306adc167e7e566dbdf4e507591e4063bb",
+      "body_sha256": "75a592f4ece00e8a964aa76bf359b567daf44c4372b0777f01fa9db345ab25ce"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/DeterminantContradiction.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.AdmissibleParameters",
+        "import OAI.NumberTheory.PiExponent.Approximation.Comparison",
+        "import OAI.NumberTheory.PiExponent.Approximation.MatrixArithmetic",
+        "import OAI.NumberTheory.PiExponent.Approximation.MatrixCounting",
+        "import OAI.NumberTheory.PiExponent.Statement"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.AdmissibleParameters",
+        "import OAI.NumberTheory.PiExponent.Approximation.Comparison",
+        "import OAI.NumberTheory.PiExponent.Approximation.MatrixArithmetic",
+        "import OAI.NumberTheory.PiExponent.Approximation.MatrixCounting",
+        "import OAI.NumberTheory.PiExponent.Statement"
+      ],
+      "original_sha256": "b9c6643a0b8eb48868d597c1e4a613ec2f1da5d49cedc3484c67b3ca057a8130",
+      "working_sha256": "bc6fa8cf0d7c218c107d8839a67d7c92b1cdebe188a81f35d24ed443ce987795",
+      "body_sha256": "beb23e72e9d6c902958b9a6484a6dbdb2d2e52c2b7ded08161343e0ee6dc61e9"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/GlobalSectionClearing.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.Modules.Tilde",
+        "import SupportCore"
+      ],
+      "original_sha256": "2ea40e3dce1e9f13e0dcd8ce3ce79997bc6e88a71437aac6e6c89d5005da1619",
+      "working_sha256": "10ce248cc550d5a6f3843d3c6c84781aa08be15e307e1d2b0afd9d724d0e5597",
+      "body_sha256": "eb7a8baec5551f61ad1e4b24fe963db6b5787536965572f50a0791a4c621c19c"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/LinePullback.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleTensor"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleTensor"
+      ],
+      "original_sha256": "970bb3389870e27a3d1e0104386cbc0623b33084cbdaf566da93db35c4a7ad0f",
+      "working_sha256": "fee50ab5f48fd393ad7d975ef9b324943dfa2c0e7ae1eb6857047df3f85bb0d0",
+      "body_sha256": "704b5dad45fdc59d0040d520b951ce9e7ed0b9e05f09a392b3ed284ca662cefd"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/OpenBaseChange.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.Modules.Tilde",
+        "import SupportCore"
+      ],
+      "original_sha256": "941ed6264d9f1acb7047a8a231525aeeeeae60e96eb0693e1cb592ada1f312ae",
+      "working_sha256": "10d2c60fb9213b2fc55ab2cb5ef724e9e89542c9ccd157312e9c461f6937f2da",
+      "body_sha256": "3e7dc76cd0bd349153573f7cce6d04b525efabe941bac2c128927c80243ab145"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/OrdinaryComponentRigidity.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.GenericFibreRigidity",
+        "import OAI.NumberTheory.PiExponent.Jets.OrdinaryDerivativeIdeals",
+        "import OAI.NumberTheory.PiExponent.Jets.PrimeNormalCotangent"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import OAI.NumberTheory.PiExponent.Approximation.GenericFibreRigidity",
+        "import OAI.NumberTheory.PiExponent.Jets.OrdinaryDerivativeIdeals",
+        "import OAI.NumberTheory.PiExponent.Jets.PrimeNormalCotangent"
+      ],
+      "original_sha256": "0995aee8453b426a5e1224d60c440d799afe1d3ba2d3667c26bc691131f605cd",
+      "working_sha256": "9f9d18832a272d54a4b12df17fc338c5d3db055905e2f83887a0c958dd1d67d8",
+      "body_sha256": "3b97bc2e76e566508a51961f9e1098c1edfe4fc271badce856ca0cc8dec742eb"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/Parameters.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "e9871b13233e385e6183acd35c517051900a495c0fa9b6fff21f9149c078468c",
+      "working_sha256": "d46824e99505078398685bef11657ec38c9a5cc5b05d030e8da7d5931ae8b6db",
+      "body_sha256": "2f488bb1599fc861c10e6beb71aeda552ec1e10701ac56190b7aa60c566b544f"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/PersistentComponents.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "b1952874e87b3201b805db1f39f7d7f70f312bd36c0c373ddf84a461bafe5b2a",
+      "working_sha256": "e0f3bdc95332255e54ef8b130f30d7974c4f6f070b8916cea44ead7555bbfa7c",
+      "body_sha256": "548dd3096298c21d431b0615b09a46242078a085dfa0987533851eaf5e28c033"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/RectangularVolume.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "10aa6d4cd84e801dc322e225d3269d87e92977e6d9a2b7464a3b8cc07cdaaf6a",
+      "working_sha256": "9a6a75ffb960168757f1f9dcfcbf2b7c801ce31e233fe003d1034507b6cb0093",
+      "body_sha256": "442b45ece487d679887232e8b3f4856f257b68fec2c47f0c1a572c8477946bfe"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/RowTranslation.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "02cc2f4d0ab366fa3807127c47a1c2f5c5feebffc6159f290c18ad9a82932e53",
+      "working_sha256": "aceea5702d073f95bfc9ace92e966081d4b6034317a2c83d70e727d84a1d2dc8",
+      "body_sha256": "993d5378c2c2757663cdcfbdc35bdf0fcb37c1801de6de89a6ec3c62c9b202f5"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/Sigma.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "c295486918c428bb360b649f2b42d95b7246a698d6c7a28e7ffba9ceb7c011a4",
+      "working_sha256": "094d3578cd9fe2e9686f98d8af54c6c840f0d078bef90bee93c1c203c209357f",
+      "body_sha256": "ec4fb54ab5dec3fc8f57bccb9501f4fd9f1d75b2877da3a88d5701a6885c7181"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/SuccessiveApproximations.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.ApproximationSelection"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.ApproximationSelection"
+      ],
+      "original_sha256": "46a69bc973c68ecf8bae47d7ea07b9c5de0005b137ad402c5a88f76768c9d906",
+      "working_sha256": "b2d32e722e16237a149b5ad17b2b0a94b6a58cb0c908229d95245f0a140d8aab",
+      "body_sha256": "76566c82b9f7a0ac88b3bb464a41ffd7260314258ddc735bef2c1b0675f421ac"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/WeightErrorMargin.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "b76595598194e525a5652cfb07430c5cb8835d12e1f5892934223afa0e320a37",
+      "working_sha256": "bf4f1d2301dd706264b0de4d870eac0d392b183e7d1f9f2f92e5c4ebffd863bc",
+      "body_sha256": "0680b9442c378948cb1cfedd13f45b6567104d0ad963a83e97a8d0628416c3d1"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/WeightedCompactificationImmersion.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightedCompactification",
+        "import OAI.NumberTheory.PiExponent.Polynomials.SurjectiveGradedMap"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightedCompactification",
+        "import OAI.NumberTheory.PiExponent.Polynomials.SurjectiveGradedMap"
+      ],
+      "original_sha256": "bedaf23e555aaf269ef508a3a1ffd4c56f2569d45fcdbd481e9c41ccbbbb3977",
+      "working_sha256": "ff1e7be32a329d1490d67f0d0faf4df9b243724ca237a13a24b03f605d64ba50",
+      "body_sha256": "7c725c0d5012510615e1ba1380a861ede4abf86eb076e484bcc376064af15b03"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Approximation/WeightedSliceDegree.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "3cb50847f5ee04443587de9b56e975f6297fd16cee8b89a1e815a5a423561bec",
+      "working_sha256": "6bb86737197413f651061961c5071a7e40e6a37f74e186be386f9e374ce1d4c0",
+      "body_sha256": "3ed16e004252fd3a431908614a1f9e8f02d5c66b6a1f69f82e953cd5b6aade45"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/CurveEuler.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteCoverCohomology",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleTensor"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteCoverCohomology",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleTensor"
+      ],
+      "original_sha256": "593be6382067d1a0aeb07976536f013929e81bfb881cd18542d8268dde2a46b5",
+      "working_sha256": "a6066ac110f64186d630608338984d27e519fdbe3b2bdd37473d3824becd0257",
+      "body_sha256": "dac0e97759a9ff22409cfb951e8de51ffcba05f6c3ad700f3667be60814a677f"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/CurveZeroEuler.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "original_sha256": "67db7676e1430aa1bb30173c5f123de8e153f9669f438f4a8bddacf3c2953e54",
+      "working_sha256": "da9ba1a0566de550570cd1ff4570c2a83a85682393fcefb9f3828bd5f9dc0a5c",
+      "body_sha256": "61812750b1c611f460d13db8de3d4fd672931b5e8b651452b54d225774d00509"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/EulerDifferencePolynomial.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "d2446df1fc79ef9d4c3fd130ddd2c27f502e291badca870a9e560b9ee01699dc",
+      "working_sha256": "49ad88490d1b4297bfa7349e19c3869bb0505eff8fdbfdcba25d6a570b006f0f",
+      "body_sha256": "26cdfa19f99ed5685c5ba992f30bd6ce30d7754bf66fc6ca8652af2d141ec97d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/EulerExact.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveEuler"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveEuler"
+      ],
+      "original_sha256": "06e86c6fb7c4489031306bc7e7cb66bfa3f3cf767817f191ff42052880d152c9",
+      "working_sha256": "a8dbb8da5e8ab7d823f45d707f45ad51e71d09423ced441b934ddf7422dc37fd",
+      "body_sha256": "5fbe754110062eda9b29a912eb8ed3d21b08cee671379bb7d386ba4af1c076e0"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/FiniteCoverCohomology.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.Topology.Sheaves.MayerVietoris",
+        "import Mathlib.Algebra.Homology.DerivedCategory.Ext.MapBijective",
+        "import Mathlib.CategoryTheory.Abelian.Exact",
+        "import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives",
+        "import Mathlib.Algebra.Category.ModuleCat.AB",
+        "import Mathlib.Algebra.Category.ModuleCat.Presheaf.Generator",
+        "import Mathlib.Topology.Sheaves.Flasque",
+        "import Mathlib.AlgebraicGeometry.Modules.Tilde",
+        "import SupportCore"
+      ],
+      "original_sha256": "c32705bdbd4bcd7b331d025b4edd28d157b83987e6d255326fe5949800fe024a",
+      "working_sha256": "f2c7767884d491238118f930c154ea27f4be6014ea7b674cd5a8aa8dfe0afa61",
+      "body_sha256": "42231e69371c05cc6c5bbeb09cecd6d500493a87885c11250f3560aad1270e37"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/FiniteLineEuler.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CohomologyIso",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteSupportCohomology"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CohomologyIso",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteSupportCohomology"
+      ],
+      "original_sha256": "1215cce6d76a0ba5808d445662387cde7ad45ced3da72199bb75d93823da0b31",
+      "working_sha256": "3d2d1e694e31e2008e9b1ff796d5bafb72d72f6b285e1cd98066fac195e3951d",
+      "body_sha256": "2c1fe58bdc59a17e3038fcb26e9db762e9cf23f01f5ff77509c6b44012337f0d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/FiniteSupportCohomology.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.FiniteCurveZeros"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Category.Grp.Zero",
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.FiniteCurveZeros"
+      ],
+      "original_sha256": "23f56ac46f0b9c7de535421b25567ef60ee419b8a0ef4d8e1114d8281a6a280c",
+      "working_sha256": "688e0f73ca8264f42c12152afb60df32c73d18da201ed24e4b28893014352093",
+      "body_sha256": "d42e4de38a88e46daee6e1ca279a47a19a8ebc3a474076f364ec4b9d0520e75d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/FiniteZeroEuler.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveZeroEuler"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveZeroEuler"
+      ],
+      "original_sha256": "d516da9648fa6114f79ab149b76da580b46b4b6ab7eb68ff882b706b5b9fa22a",
+      "working_sha256": "fda1135f0a6e9dd202fb65a041397dee985172d7a9ad22ace3aa41c9d1a5b56d",
+      "body_sha256": "b0abed64577fa1113073a34b3b057bdb5a7dca3d44dfcd6e66e796284fd11514"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/FreeCechResolution.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteCoverCohomology"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Homology.ShortComplex.Exact",
+        "import Mathlib.AlgebraicTopology.ExtraDegeneracy",
+        "import Mathlib.AlgebraicTopology.AlternatingFaceMapComplex",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteCoverCohomology"
+      ],
+      "original_sha256": "5f16100bb6138c5c54b486ea08d60b455c582ee51b4f7152219fd8c5f099b8b3",
+      "working_sha256": "eea840ff96db957ce0432e325d3ef162a6f8f92aca7996e0a7e9ed3c3e8e0ca1",
+      "body_sha256": "7a41e8ff26c84fcd21110988ba839270a40cd540555348bcb7cf41d3dc50cfc4"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/GradedCech.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCechHigher",
+        "import OAI.NumberTheory.PiExponent.Polynomials.GradedLocalizationExact"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Module.LocalizedModule.Away",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCechHigher",
+        "import OAI.NumberTheory.PiExponent.Polynomials.GradedLocalizationExact"
+      ],
+      "original_sha256": "8c6dfa335e429ca46d921faab1f2ef417ed9caf248ab243b69c696909ab257ee",
+      "working_sha256": "52f5b210f31eef46a6f25385fc3812e06b631435138e35fdf88b2fcbf498cac5",
+      "body_sha256": "01feedafdca53e870fd40e943fabf2a001f8b2ee39a5b132d80158f7e701d23e"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/GradedCechRecovery.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "c27026680b4045fddb649de2e76a3c311c054a095402908b793e51d69e0cda07",
+      "working_sha256": "5b2fe288c352fd16a56a415b586717d096c0d643de2d799d5e51c42d5b94ac61",
+      "body_sha256": "b09fc3bf18311842ed455ced0fd6cd9e61c218ad0619936b9fe49e556b9d7b4b"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/GradedH0.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Polynomials.GradedSerre"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Polynomials.GradedSerre"
+      ],
+      "original_sha256": "002280139e9ab013c09569dcf65305b0f8fc36c871e05dd8aa84f8e54a9d5c7e",
+      "working_sha256": "13ef249aba6e66c4c60150b939b3631bf0c4c31786f82556bea59c736bce1d42",
+      "body_sha256": "e16c2f6cef9fffa14a947a4a51404333e2ea146c99470bd0747467b11e40e4d6"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/PencilCohomologyLaurent.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Module.LocalizedModule.Away",
+        "import SupportCore"
+      ],
+      "original_sha256": "25c2ca1fea284cc76d983902a01de27d97384361502831f18108d97a227a1b44",
+      "working_sha256": "227899ad7fe1ea969c8ecab88605fe10c1d972a554082bd57e72220c1bf553b3",
+      "body_sha256": "5298717fb3bcc9ada474559f9505ee6a7c3e45150f5cafcb55eceb4ea3b6523c"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Cohomology/ProjectiveLaurentVertex.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCech"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCech"
+      ],
+      "original_sha256": "2d421a5a027686d46438a51ae38540b4808afa0b08670837657640e541b0ee4b",
+      "working_sha256": "1f21bf59d8e8a2798d910a8bf5072810938fafe38373a8db6d2587c04bc25907",
+      "body_sha256": "6c8f6d3f0b03d79ed5553ff07a370b6d322af6b83683d569b5510f36e4b5b684"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/BirationalValuationStalk.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "4c4fd64723957e0aafa71dc351444db52a31cd183fe9dd1560c0ae11ff3a02b8",
+      "working_sha256": "70bb90e3eb67f88679ca2d5b185670dccee99ac90a901fd01458a2e6860d8a08",
+      "body_sha256": "138029b1c3210992c204c627ec985801cbc9a966d3ce556a24f5e43b299aa32d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CartierDegreeLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.LinePullback",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerExact",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteLineEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.CartierSequence"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.LinePullback",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerExact",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteLineEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.CartierSequence"
+      ],
+      "original_sha256": "5a6816e7220c2011a0fde9898a45f558c6ef050b0206a96b01e4bc18c471a81a",
+      "working_sha256": "6b7e4b2e4b2d740713d9114fd5af75c1b22cb7a65e4811138009d81c4d2da61c",
+      "body_sha256": "7a19c45cf2e3dbd5124033d31263f7d0a90da5b8ec53d7013cf0200676854a42"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveComponentMultiplicity.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.IntegralCurveExistence"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.IntegralCurveExistence"
+      ],
+      "original_sha256": "1f45c0c0032f6f94429bcdae0625db83cdb20200426e7eb0b15332ff8368fb47",
+      "working_sha256": "d26229c61d31a6b3035c8aef01e18ab2a7d4d77131bd52c07915a41389a69787",
+      "body_sha256": "0027e845e4278480cf2f7417688d07d30bc4cb12adf28236baeaf003db9f5a37"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveComponentRigidity.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.GenericNormalRigidity",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveContact",
+        "import OAI.NumberTheory.PiExponent.Jets.PrimeNormalCotangent"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import OAI.NumberTheory.PiExponent.Approximation.GenericNormalRigidity",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveContact",
+        "import OAI.NumberTheory.PiExponent.Jets.PrimeNormalCotangent"
+      ],
+      "original_sha256": "8333e67ade61803c1c0db75141aea510e6ea44c4b02767c4ccd8ad2b3eeb6a47",
+      "working_sha256": "2eee97f88bbc09922acbd2ddea03da23f8af8a5eb08732a8aa5a86dd572a42cc",
+      "body_sha256": "d31aa98470b3b9f7fe7d094094e75b2f1be14b1bcc6bc2d64a8cb0b4a2ec7b77"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveComponentStalks.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "ee4583b39476dc56822ed0a57dd83f7687c97ea77853016cc56b5aba55c0c5ec",
+      "working_sha256": "f0ba1480b0e7be6c868f0db7836ed9f89abeedf0d651523ebcac50e3ff1f4feb",
+      "body_sha256": "0738be12f44caf52998e4d644c3de24cb420586d3f87cc2e3697b10765ae2c09"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveCycleLengths.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveComponentCutLengths",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveComponentIncidence"
+      ],
+      "working_imports": [
+        "import Mathlib.Data.ENat.BigOperators",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveComponentCutLengths",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveComponentIncidence"
+      ],
+      "original_sha256": "d8e230bd50e8f42c7e9bf913921ca1f7c153db788a8736241e52800a6271f0e4",
+      "working_sha256": "22f93453e13032eb1115d6d14efafa8941658c2223f8389e5e34f71dec79f7f9",
+      "body_sha256": "d47932da6262afd09cf01a631d13269b56e9cf8421c9f234f6348a993860d6e3"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveLocalOrder.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.WeightedCurveDegree",
+        "import OAI.NumberTheory.PiExponent.Jets.IntrinsicLength"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.WeightedCurveDegree",
+        "import OAI.NumberTheory.PiExponent.Jets.IntrinsicLength"
+      ],
+      "original_sha256": "eed309c3be9e6ed70ff6aecbec7d0ed51b4d54107809073b64887005f8412b0d",
+      "working_sha256": "bf68643cc527cf898bb211a2814758d6b98ca467499789ca51bf749b8d015211",
+      "body_sha256": "829feca3d26888c59742364a5020319a82ed239ec77d7695aabe43dfbe2b7690"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveMorphismFinite.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.ZariskisMainTheorem",
+        "import SupportCore"
+      ],
+      "original_sha256": "f2de6566a5cb9fad0eee7365898fc834c0434f0ccb28cc590c27b1c0cc92d5d6",
+      "working_sha256": "a23201a93f7d4d4ccd17424636ae1f4da96204bddccc9db29b3082ef1f4b08ce",
+      "body_sha256": "d5aa5973eabd2593fe914caee47372b10901303234d729ae9e22f180412f8241"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveNormalizationDegree.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.ProjectionFormula",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerExact",
+        "import OAI.NumberTheory.PiExponent.Geometry.FiniteCurveZeros",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.FiniteSupportLocalIso"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Category.Grp.Zero",
+        "import OAI.NumberTheory.PiExponent.Approximation.ProjectionFormula",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerExact",
+        "import OAI.NumberTheory.PiExponent.Geometry.FiniteCurveZeros",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.FiniteSupportLocalIso"
+      ],
+      "original_sha256": "d86b5922443f382d0c70c4cbb036e6857980b18a796b784de18867fe16dd6947",
+      "working_sha256": "e800d9041300792107bb948ab1800225b77adc4e55235ff9c4249f23c48c1b3e",
+      "body_sha256": "3e145664b5ecdd1e98f8eedfb85dd30b2a74411562261f58e4997d3ed187c2a9"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveProductFormula.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveValuationCenter"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveValuationCenter"
+      ],
+      "original_sha256": "0f5fea4114c0b9db33ed7b856aa1ad7a1ef6da520b6bb1a66fa012806bb35952",
+      "working_sha256": "adfa68e199e83f7d2b6a837c21cabadec34c4475a15de4a79bb8f99097ad3fc0",
+      "body_sha256": "181656e4db44f1d464415d36e79927a957a72d0176a71a2bd86c2e1a0abf3356"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveStalkGluing.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.SpreadingOut",
+        "import SupportCore"
+      ],
+      "original_sha256": "3e9673e6f93acba666b67b27eb2edf82c0d566bd4a1c60f5ab4dbe18ab080614",
+      "working_sha256": "5549bd9d73cca6629c6f8df9f9899004849c18848ea034c876f69a9e4b87fba5",
+      "body_sha256": "36d817458184fc1bec7041cafbee2552442d5c97b5659b2687663f500ee3e373"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveValuationCenter.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveZeroPole",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.DVRValuationUnique"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveZeroPole",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.DVRValuationUnique"
+      ],
+      "original_sha256": "bb7b1e4ff1b557fe77bee91940d116712f99641d6206d84a40496fc7241bdc5f",
+      "working_sha256": "572aedc83e964b72709297534d2425daf3683629f16840afd1e99950c2a9ff2c",
+      "body_sha256": "104b7185396f8af4de458c49daa99252f2c061b8ba734ea47843ebe8b2e16ad8"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/CurveZeroPole.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder",
+        "import Mathlib.RingTheory.RamificationInertia.Basic",
+        "import Mathlib.NumberTheory.FunctionField"
+      ],
+      "original_sha256": "5e0a7db2cd78b10fe0c593d392e27e3856606401bb0e972b17219e9192045ead",
+      "working_sha256": "518b92260263f422ae3cd4a4dd6a568f1b53a2fc113d51a6d5e1a6e4cca3e301",
+      "body_sha256": "1057bbfec337cfe60548340d90bd089a7f5a5016731cd3db59b8c74573b86983"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/FiniteCurveZeros.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteZeroEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleCoherent"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.ZariskisMainTheorem",
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteZeroEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleCoherent"
+      ],
+      "original_sha256": "e02a82e063269322d4b6fc1fc22334d8f1b5e1e11ea7a4e14327b0567e844c2d",
+      "working_sha256": "5ec7dc2241e2d9bf453044354ed4f11b1cb6a4108166c8238e50fac70f517b38",
+      "body_sha256": "7c9c1bb15916176041b28d51f6d0b3d118d74bfb05a378bbabea26bf28b4ad49"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/GeneralCartierDegreeLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.LinePullback",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerExact",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerSupportDimension",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerZeroDimensional",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteLineEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.CartierPowerFrames",
+        "import OAI.NumberTheory.PiExponent.Geometry.CartierSequence",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleProduct"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.LinePullback",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerExact",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerSupportDimension",
+        "import OAI.NumberTheory.PiExponent.Cohomology.EulerZeroDimensional",
+        "import OAI.NumberTheory.PiExponent.Cohomology.FiniteLineEuler",
+        "import OAI.NumberTheory.PiExponent.Geometry.CartierPowerFrames",
+        "import OAI.NumberTheory.PiExponent.Geometry.CartierSequence",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleProduct"
+      ],
+      "original_sha256": "c080ee6d683a8882ba2a64713cd9178e7f4ab900765851b505ac64ef981f4087",
+      "working_sha256": "a7014ccc4309573c90447a022e90057913b851e8ead9a02d856d4187e6702b77",
+      "body_sha256": "4454a8b691ee719d0c988da9fb354327012f94bad25e904f902239f11ecef636"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/IntegralCurveExistence.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Ampleness.NumericalAmpleness"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Ampleness.NumericalAmpleness"
+      ],
+      "original_sha256": "a828495b39b9c2a2185e217d4119faae9cbaa1cb8dc3d3cb3bb7d0c844065d17",
+      "working_sha256": "befe1bb07e250414362a839d5d7a2044bcd929bed77730d6d74934fae8f9b167",
+      "body_sha256": "252dc383a60ae5b38d193221684f44087fb51759442069d9241ba859164899bb"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/LineBundleTensor.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.Algebra.Category.ModuleCat.Presheaf.PushforwardZeroMonoidal",
+        "import Mathlib.Algebra.Category.ModuleCat.Presheaf.Monoidal",
+        "import Mathlib.AlgebraicGeometry.Modules.Tilde",
+        "import SupportCore"
+      ],
+      "original_sha256": "fdd130dd0f2489c1ea3d20cdd7adc6ae89d29d00edf0e62d1affe01a51a817a9",
+      "working_sha256": "2e74cc6ac59522ba8ad1dedbe3b25929c89e26edfb10df5298d2f68d974fdd32",
+      "body_sha256": "ddb229e2c5fbcc64fa8f1dee455ac3d089d0ee46fddf9760c35e270cb2d8d5d7"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/PlaceLocalRing.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveParameterFinite",
+        "import OAI.NumberTheory.PiExponent.Geometry.PlaceParameterModel",
+        "import OAI.NumberTheory.PiExponent.Geometry.PlaceValuationRing",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.ParameterResidueField"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveParameterFinite",
+        "import OAI.NumberTheory.PiExponent.Geometry.PlaceParameterModel",
+        "import OAI.NumberTheory.PiExponent.Geometry.PlaceValuationRing",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.ParameterResidueField"
+      ],
+      "original_sha256": "e1dc9313eaaeea0bb0c2aec20d186c00fbeed63993f42067cb7bdd79ab7886fe",
+      "working_sha256": "09555766eca98adb365a4ef7a8e37c3243460bf1b2746f63913d64602158219c",
+      "body_sha256": "c5df93ff7f2969c39c42800c55b7cbc1acfbb8a4da6fa81157eba9c6704871a8"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/ProjectiveCharts.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "b5971ef27471ce961117b149f14b921cc8954ea7ba75ecab0862b8233e3f99c0",
+      "working_sha256": "704050e130e6344a601e2b1f7cbb4108f2ea8f736595c13ec6185d628415e83d",
+      "body_sha256": "a737c01f3f21bff4048276dbe797d70470f5ec8ec473346f93b11e9898a543e7"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/ProjectiveFramedAtlas.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Geometry.ProjectiveCoordinates"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.Sites.BigZariski",
+        "import Mathlib.CategoryTheory.Sites.Hypercover.Subcanonical",
+        "import OAI.NumberTheory.PiExponent.Geometry.ProjectiveCoordinates"
+      ],
+      "original_sha256": "bfdce581ba859a8f90a64c37ce7112ad1b77df3169055a8f72a65f5b27f35904",
+      "working_sha256": "b81637745cec81f65669d0d92b220296745077a861e2fbf31652a306c8db5e57",
+      "body_sha256": "379e106d6e60d5ec87da57811a6e1225fd7a35f7851b3d95b60f9fe0b94c56a1"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/ProjectiveMonomialFinite.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCechHigher"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCechHigher"
+      ],
+      "original_sha256": "c03c32f6ece69ac637876f45c48e9919aebc36d3dbfa5a5ab6ea703a4be02218",
+      "working_sha256": "ef195f4fef194d85b43035a4b7f9b72e5a3095bac63b6cef7fab6d3edc0b9130",
+      "body_sha256": "e0243096811919798f765e02fd7edf2661b92c16153e92a8a803d5f8f8a989cc"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/SupportedSheaf.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.Topology.Sheaves.Flasque",
+        "import SupportCore"
+      ],
+      "original_sha256": "3f86d0febd7c47021c03e363f8384b42aee8d46c77f8adc7e9fc6f8c598092b7",
+      "working_sha256": "14c7e0315db4c2c9ea42c24e60e8dab8c5b71e05b3a6ebc8dbd303317620f868",
+      "body_sha256": "9a1381d52754ec052df8b28387718100f85d27f560d5e0094ea22072b9ecaeb2"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/WeightedCurveDegree.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "f318843c7f8c5c21a49f07423897630084de8c47167126696b9e724cfaf8d97e",
+      "working_sha256": "109e77b83f8099ed6b2dc22c9baf7bd7b53a1fcb57737ecc2c9734d20a40ec8a",
+      "body_sha256": "18813fd2acbc8bb0754cec6706dcabd3eea5070f0b89a50beb8e540b98b0d444"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Geometry/WeightedLocalSheaf.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleTensor",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.WeightedLocalLattice"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.LineBundleTensor",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.WeightedLocalLattice"
+      ],
+      "original_sha256": "2954b29480f2cbec4838e42f7b9cebd7ef08b3227fb5e1619d291276a1e5d712",
+      "working_sha256": "d6b1d6866be965d10664d4df5c5302a6ffd0bac45220d2d7c97bab0ff88caed5",
+      "body_sha256": "36c747486371d051b9e843945d67d6453a2ee74a3fd01bcf1b69a0a41a8f495d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/BranchContactIdeal.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Jets.BranchContact",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import OAI.NumberTheory.PiExponent.Jets.BranchContact",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch"
+      ],
+      "original_sha256": "43a04039a0fe6e874f65764a106794ace5d962b47b6a6a0ccaa5e9fa5cfeeb18",
+      "working_sha256": "7b99527310c672312446dc428986364244fe6f9074d00598121598e1d57725dd",
+      "body_sha256": "e9f82a875d257edb95ac4c31504e92d65548f6f17ae52ab23c30f6b21bdc651c"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/CommutingTaylor.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "c708693888d87df3ae23506c6a52284bbded0c56c449c6a6544d8317af56a392",
+      "working_sha256": "0aee1aab0e4a93c0720686e5eacd031065bea72751da810f2b13a72c0d248719",
+      "body_sha256": "3bae38a6362441b31f1e918e970bd6fc6f5fe919febddf9b278ac484ae3c4a24"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/CotangentGeneration.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Jets.GradedGeneration"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Jets.GradedGeneration"
+      ],
+      "original_sha256": "479de724a7bf3b57a0db6d0a4b2029a3246583d73307f15a3cc25467dc946084",
+      "working_sha256": "f86e198fba4b379eee58350752a0bb4b9812a92f7b37d7a88acea81cbd431b35",
+      "body_sha256": "b9f6473ba4178b50fd33d753398379e3f00d4604cadcf4956708071d6df1071d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/DVRBranchExpansion.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "e9a91df19148890613c49f27499488a2981794b5229954007c61939571a560e1",
+      "working_sha256": "c422994c83750e5eae092f7aefd46c3c087ced93efc09fc1a00b77a8f1052ac8",
+      "body_sha256": "2917f2127e27684f2d94bc072594acafe3ce1cac82da7249ef790a1eadd671b7"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/DVRBranchJet.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Jets.BranchContact",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch",
+        "import OAI.NumberTheory.PiExponent.Jets.FormalBranchEvaluation"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import OAI.NumberTheory.PiExponent.Jets.BranchContact",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch",
+        "import OAI.NumberTheory.PiExponent.Jets.FormalBranchEvaluation"
+      ],
+      "original_sha256": "139702f3773759fee8f413449c152c37f4ce238d146ef3a1678642a2036f802c",
+      "working_sha256": "5e58e949343a2c30a747a978be6e50473c07244cabd0726051d83c4c11022e7e",
+      "body_sha256": "581e2f70561a61a461c9f4ad092585ee8776ed56ef5755321d779b87a5deba89"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/FilteredLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "3a237ac2f76379619d2db65bd2421466e0d8d8ed1600eb3d99166f73351a661b",
+      "working_sha256": "85d91ecb0046d695169587a92045a0dee8c65cf786a727ee3e282efc14496f45",
+      "body_sha256": "65193df8cab3dd6c8fa44b30f68f63c24ad494f53bab99a919cd38f4ba1fee39"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/FormalBranchOrder.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "f063db0bfd0942e6e5cf54a64f933bc1c229d558531bb8632e79410d8840dd90",
+      "working_sha256": "e7447111abaa866eb0fb2224b57335bffa9178d88379f3e93e4d57f372d028c2",
+      "body_sha256": "ac9c1bdb1166212166a9601204f118ba3e870732ffd2af9bf4e519a5cd00c781"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/FormalJetDerivatives.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Jets.JetGeometry"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Jets.JetGeometry"
+      ],
+      "original_sha256": "e3df182925c7681e3d0fb33a0dffa723ab834cba99df651ed1c60921fd999ba9",
+      "working_sha256": "45adf2c0d74b3b8b1acf4b9d844a21f99ad9ed854a79f33ef8f5fdfd2b79bcef",
+      "body_sha256": "47560d346e13c0c4cf2fd033b4c8b4db832a61a325f698528d8642163918e23b"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/FormalLogJet.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Jets.FormalJetDerivatives",
+        "import OAI.NumberTheory.PiExponent.Polynomials.PolynomialFrame"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Jets.FormalJetDerivatives",
+        "import OAI.NumberTheory.PiExponent.Polynomials.PolynomialFrame"
+      ],
+      "original_sha256": "3381c47b22e663f4f46ade22bbbe64633ffd9beae057016ab7bf098eefa9e3ba",
+      "working_sha256": "51cc1d1ce06804c6a0d44b59b34dabc3bba6aac19dbf7f0b0d23bf6beb41174e",
+      "body_sha256": "db42453d60368c63821232992e404abd20ed34a2b19f631eb22c77756357a9c6"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/GradedGeneration.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Jets.FilteredLength"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Jets.FilteredLength"
+      ],
+      "original_sha256": "8dd4dda751ef648a6638277ea7630e999558e36eec574d6a88c7c792cd09eab9",
+      "working_sha256": "9737f9fad22563bc339ce97521480620d424dfd25a95115c6b08a02694211fa3",
+      "body_sha256": "115e0bb1a7b438d7d79c36cb425b39c8cfddefb32af918d988f2de6148fa1b77"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/IntrinsicLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "43583aaf67ac04dc30a8278b450343fb9c191d0e5c894b84e784a624c5919e8f",
+      "working_sha256": "583ed8bc6758858d3aee519f91c62028a8beb378a92c3c46a64e24e42eb5a679",
+      "body_sha256": "a060b5e993db9abead7bfdcf0491d8f7fbb5ee2deb4dc8e9126e5a5752e4c23a"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/NormalBasisRigidity.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "82e78118f43cfde646d992b8c91de60e795db67a26883524c1aca25dbad08825",
+      "working_sha256": "bd1c5197ba06568fe480987df78829154f40c35d8ccb932770596d96d8f7ffe2",
+      "body_sha256": "50bfccfafc85504b7ceeeef54c8fa43d3abccc5a5647f932e23b3e0c74ff902f"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/NormalFrameBasis.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Jets.NormalBasisRigidity"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Jets.NormalBasisRigidity"
+      ],
+      "original_sha256": "46689d3862235846536569adc5063fe6b2bb70c625bfc5f517f19d6a39a3fc0c",
+      "working_sha256": "bc1a06e2495d4d6be04946a23d7f274cd2fab8369e3d65d888c1e5f7fdb3d740",
+      "body_sha256": "1988879cd2dc464dc30b88cca73c7e0dbd82e68f67d471d4540ebc694e89ea88"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/OrdinaryDVRBranchJet.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Jets.BranchContact",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch",
+        "import OAI.NumberTheory.PiExponent.Jets.OrdinaryBranchEvaluation"
+      ],
+      "working_imports": [
+        "import Mathlib.Analysis.Complex.Polynomial.Basic",
+        "import OAI.NumberTheory.PiExponent.Jets.BranchContact",
+        "import OAI.NumberTheory.PiExponent.Jets.DVRBranch",
+        "import OAI.NumberTheory.PiExponent.Jets.OrdinaryBranchEvaluation"
+      ],
+      "original_sha256": "d9f74126db6829182bd401e023e84bb657e3176853913a30966596fc206c39c9",
+      "working_sha256": "ad5a695fe76bdd7a4d97f0442bbdc9eb615902df72aab6d6e4304ba8ee705846",
+      "body_sha256": "b47b0aeec232f9fd90deaaac8239277733f3f9c8007a3812175d2d042220ffd2"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Jets/RectangularCotangent.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import Mathlib.RingTheory.MvPowerSeries.Derivative",
+        "import OAI.NumberTheory.PiExponent.Jets.TransverseMultiplicity"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import Mathlib.RingTheory.MvPowerSeries.Derivative",
+        "import OAI.NumberTheory.PiExponent.Jets.TransverseMultiplicity"
+      ],
+      "original_sha256": "7cbc1090f64728d58cbcb4fe6b6fbe3f7e2f064e6055e163c7f3dd5c2dc95107",
+      "working_sha256": "9e6f7e1f3d2fc05800d0b7aa7fca54f6ba4ba49b1cb881741489fe484ec737f7",
+      "body_sha256": "cd08fe0b4d920c9e7bbdcb5586d9e2e32465f10b35b171d39bea27d7880366b6"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/AssociatedPrimeAvoidance.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "00f01baaa81dd1bf53985de81f92198bcbbb8c9f494522867dc6fb274ad37e2b",
+      "working_sha256": "c046e2acd72018e4c6b1a66d764a86a9f96cf20199ee2f04d99f0c705017fcf3",
+      "body_sha256": "e5258cb7590011d2ad4439b56617f8fce6c69fefe8aa49b9c51a4e6f7bf38d74"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/CoordinateContactBound.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveContactSum",
+        "import OAI.NumberTheory.PiExponent.Geometry.PlaceCenteredBranch",
+        "import OAI.NumberTheory.PiExponent.Jets.OrdinaryAuxiliaryJet"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveContactSum",
+        "import OAI.NumberTheory.PiExponent.Geometry.PlaceCenteredBranch",
+        "import OAI.NumberTheory.PiExponent.Jets.OrdinaryAuxiliaryJet"
+      ],
+      "original_sha256": "b05fdfad6e305108157be9361335e80b94c377762734e786a73286a8279276be",
+      "working_sha256": "b37ffdd4c7cba0bcdd166bc0f8bcd2485de4fbab1ef5e240324ce27563b082e2",
+      "body_sha256": "ded91b813a42d7f96319bf21583922097cf832b1983c3d35712ce2f8ad93f626"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/CoordinateFiniteSlice.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightedSliceDegree",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.PrimeResidueAlgebraEquiv"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightedSliceDegree",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.PrimeResidueAlgebraEquiv"
+      ],
+      "original_sha256": "d8849eb25e1041ce6170ca43e3f2c39be2b150ca7e6668d1621e67a9c0223ef9",
+      "working_sha256": "01460f45c39d40269817489f588de1a6cd7b616c3ab340c62e5f4a01b5a29e36",
+      "body_sha256": "2ec95322cb63f1ad58c65df311faeec92de23cc424266f835467261315d32610"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/CoordinateSliceLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightedSliceDegree",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.LocalLengthTransport",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.QuotientLengthEquivalence",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.SeparablePointLength",
+        "import OAI.NumberTheory.PiExponent.Polynomials.PolynomialPrimeClosedPointEquiv"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Approximation.WeightedSliceDegree",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.LocalLengthTransport",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.QuotientLengthEquivalence",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.SeparablePointLength",
+        "import OAI.NumberTheory.PiExponent.Polynomials.PolynomialPrimeClosedPointEquiv"
+      ],
+      "original_sha256": "f3ce5279b3cf003a82c641606c6945feaf059acd008d2d14b00ab9cb16d0f0ad",
+      "working_sha256": "099a6ee96a1bc1d86cf88940382992c6e990ff3d7c7b1c89e7444246d3f2784f",
+      "body_sha256": "375ebc3f8acb1e6022da39ce67eb2f21db07aa1a445575fb2210393df37539d3"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/DVRValuationUnique.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "original_sha256": "f85d5839baa310e4783bd06aa2091ae7921265a26ad93190247161514b0b19d1",
+      "working_sha256": "b99a15ea682ab3646a1ad42cb13f034cd994258b15e88338ebd13b8ba09d5ae4",
+      "body_sha256": "ff410397cfca8687c0108401c16a266aab81d0f2b3f9dd950e7b44f15fa21f83"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/FiniteFromClosedFibers.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.AlgebraicGeometry.ZariskisMainTheorem",
+        "import SupportCore"
+      ],
+      "original_sha256": "9e7604307d13f6949b9a88892075c97e92b685dd83992d4ed5258dceda6cd53f",
+      "working_sha256": "630804eb382d4d87a3e8292fde316a705fe1e14866a8dc7254a835c1f84f5dea",
+      "body_sha256": "d7c68120a75f3309187ce83596d3a97cb2406883a8bbed4795631b0fa9e51443"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/IdealFiniteGenerators.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "7c79ba4364bf9fd8f3f966f9fa1093ec5859df99c271a5448660ad3c5f877a04",
+      "working_sha256": "021337a36a143c4daea1db8be995657b18f161283081b29c0f0928a33174fb6a",
+      "body_sha256": "f355f39fa5c4fc16c9a9f77ab5ba318fbae75b39407caa8510dc5419503f60e6"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/IdealModule.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import OAI.NumberTheory.PiExponent.Approximation.FrameSections"
+      ],
+      "working_imports": [
+        "import Mathlib.Topology.Sheaves.Abelian",
+        "import Mathlib.Topology.Sheaves.LocallySurjective",
+        "import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree",
+        "import OAI.NumberTheory.PiExponent.Approximation.FrameSections"
+      ],
+      "original_sha256": "d2b8fd971596a9912d7932017546613a5eb837e2761452c3e1c4d90a47ec1181",
+      "working_sha256": "c0894897e66d8cc19a8a4e8f1966f5b3a44039f1ced9c7d24dc4cbc166f2d785",
+      "body_sha256": "c1cae86e989650de08c7d7e44574309b80a549619b495a0aff32f76ef1fd3842"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/LocalSectionOrder.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveZeroEuler",
+        "import OAI.NumberTheory.PiExponent.Polynomials.FrameCoefficients"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.CurveZeroEuler",
+        "import OAI.NumberTheory.PiExponent.Polynomials.FrameCoefficients"
+      ],
+      "original_sha256": "7b0540bf2878eeda4d405fba58549a3d05aab4e00c9c8dcb51441a0db68d9195",
+      "working_sha256": "6f5551748fb754887a4d96b0000270df6f77a6db4c71344b4ce1f1b79b346f11",
+      "body_sha256": "601ed9c44b16dea790ce07fe8d3091d790f309d00850662f4bfe8759fa5367e3"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/LocalizedAlgebraEvaluation.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "5e2279eb7baeb019da1e80a3f69f142a00153c20c8701fed6b2ecd2e8ce1e8a8",
+      "working_sha256": "e425883d4c7a032edd4a05cbcc26d3c389f942e3f956c1bb9273be9286f861be",
+      "body_sha256": "9e41d05047b685658584fc4477790090e2d1d5c56a92a6b2c67b6a2e5ad3c3ab"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/RamifiedLocalLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "a62834ce1c9293a570e20ac2edc0a65b888f57bcf4c71e9bbb70971df06dd7b1",
+      "working_sha256": "dd89c955a387d3241f07c5f4c615982e8b918f50f9568a6889169adc99843913",
+      "body_sha256": "4033cb76a23af3732d04f0b12fce2bcb81baa85eccb3ec5de34abf09b85ffd0e"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/RamifiedLocalization.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import Mathlib.RingTheory.Localization.AtPrime.Extension",
+        "import SupportCore"
+      ],
+      "original_sha256": "d6cb234e5fe72f8027d24cbab9a4065bc1a037167c7ea7dd6a16e6e19b39650f",
+      "working_sha256": "815cd08c4c31151b8ac2f58de5e90acee963c54ed0d283cd18e24bd3ad69edde",
+      "body_sha256": "71ee31aafccf5f58be16bcba7a159c14cbf003841fa0ba7312cc0255af622605"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/SeparablePointLength.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.WeightedBezout"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.LocalAlgebra.WeightedBezout"
+      ],
+      "original_sha256": "d9bf78b90d4e17725cca41a25d75f856fdfe95149e7dd4b1109ff3d9bad8d9d0",
+      "working_sha256": "604f0eb6af271c1c1bb72e2ee0c6626fd7bac48f0a1cbd4dec520b8a7b458fe9",
+      "body_sha256": "2f1d46353d3afb98905b0b9bff23a9855c317043b18cd47a276d70bed192700d"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/SerreDimensionShift.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "189ee2f64e612b3816b5445e732bfa44b2cfad9747a82f3b28dbef815c4e87d1",
+      "working_sha256": "f574ab61642d8687ea1a7e6404f631829273642dfc56dec90f997a9f0400d3db",
+      "body_sha256": "5d5943d0569f3fe4c52da9bbe799813c2915480690f610681c30564fe503f3c0"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/LocalAlgebra/WeightedLocalLattice.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Geometry.CurveLocalOrder"
+      ],
+      "original_sha256": "6df28278ea00721c221d6ddc5f009fe1aa5f1e904bb095adbad1f3c208ef5b82",
+      "working_sha256": "bcd8c411731fd632ba6b6f8a77eb6b7fe559c1cc58a2f8bbc855012a881cc37a",
+      "body_sha256": "27a5873db9fde1f251f01c4a231bc3d6474e8bb0d78e93b261cffe8c0fa43e54"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/GradedSerre.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCechHigher",
+        "import OAI.NumberTheory.PiExponent.Polynomials.ShiftedFreeGrading"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Cohomology.ProjectiveMonomialCechHigher",
+        "import OAI.NumberTheory.PiExponent.Polynomials.ShiftedFreeGrading"
+      ],
+      "original_sha256": "143622c2a67e00cbff10e200aeb90cb382e33e46bc0de2dc70fe8b4c24bfc1a1",
+      "working_sha256": "a1d9ba1d1d2b8fc13b17ebac208ade4b025f89e70161d4e89581793f56715c5e",
+      "body_sha256": "9853c52c4b4ae24c2e66f2581fc66ee2129104e02992e99c36242e88a6da4836"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/GradedSubring.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "697ccb19f0e47e87d587c87936e5ae595652331392c665e6c23b65a9850a6ca3",
+      "working_sha256": "33a6d222e6442cb8afb51ea0b1210b920e7329a4d645069483ae12cbe4383752",
+      "body_sha256": "49ff67d78fff4f29aa41d754b9fdb7e48f80d4b2fd9e8b0de3f1493a0680438b"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/HomogeneousSubmoduleGrading.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "c372c57acd14522d811d097ab6dd3982c1801d3aa192d1b1dd60f77a0a3576d4",
+      "working_sha256": "43a1ff2d3c500d79b96245f612ab5fe6c2daab3c3956366ef513a73d002980eb",
+      "body_sha256": "ab89b8a55df27168d9ee9a9ee1003323a1663427bc8537551e825c784277cc29"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/MixedSlopePolynomial.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "4aefc35d3bbfca45ea8a31cd3ca4ec1cb29064c32a152860faf6a0f3ad6d0254",
+      "working_sha256": "ef55f9f577cd80f139c3c9c1b81354ba6f19a10144731aac6d08a06c04f5faff",
+      "body_sha256": "6662e134140488ed517d0afd4bc1661e11182145dbcf62a245ab328c60bb02f3"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/NatToIntGrading.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "77ed3ba1228072bcf330be16188b4e913475065e3bed3123b6f48136706c1a3b",
+      "working_sha256": "2ede4a6928ca7a2a9f6d6ab0738e26adbd7dbbf942ae81ed88131fbc7fabc3c9",
+      "body_sha256": "c8b4b4680e07a81e18582432eb8076131f346ed94753bb98e2c444cd686ce9f7"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/NestedPolynomialSwap.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "9dfa3633524e7311d7f315c121aa4626deae79b556613866b26cd24bbd430882",
+      "working_sha256": "76b50f70ab24c021f61282397c3a9985eeaea0be64cca64bbbadd14c4be483f3",
+      "body_sha256": "55789781488a39f8e0b9192e0083fb7f728707bb7386bd4f2c716042a43f2366"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/PolynomialNormalNonzero.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Jets.PolynomialTangentDifferential"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Jets.PolynomialTangentDifferential"
+      ],
+      "original_sha256": "bb36227759b25ca2c79e42a8d4c83b9bd4dcc222aa3975a83dd7ad9bad4bfd1c",
+      "working_sha256": "e072b56ca34205ea91b17d3358f2475231a93d8f2ec2065235e9730906e6e0f1",
+      "body_sha256": "ed80c319ffcbe65a231804c877c2dfd67c41848582171980a1ec18ed3cd88728"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/PolynomialPoleBound.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib",
+        "import OAI.NumberTheory.PiExponent.Polynomials.PolynomialFrameDegree"
+      ],
+      "working_imports": [
+        "import SupportCore",
+        "import OAI.NumberTheory.PiExponent.Polynomials.PolynomialFrameDegree"
+      ],
+      "original_sha256": "706d2e28c57886f56cb09e2e8ebf0797fec61d3c4e7be2d24ee4554fb1eb6562",
+      "working_sha256": "d6b189d36317468fcc5166aaea4df967c1fbb31ffee3e25c240cafbab0e1c16d",
+      "body_sha256": "3de2d3bf64071aa94d4bfe5af267df8c293ee04507d466ec234a8efc5b78f45b"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/PowerCoverExponents.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "9eda31a1634a03165c8b34327604bdbbe400f621894c91f6d4b797cf35afecb5",
+      "working_sha256": "cdd48471391aaf264f9e3c749e80c52b389b2bb8d60549752d0399af7f1bb8a5",
+      "body_sha256": "cddcfe99b3acddad8cc9182d7a02df9f733f769175f085ae5c5f9c1595b07f24"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/ShiftedFreeGrading.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "281e1d03f0ed3e71ec562f37d2599fee405dcc92afaab7cff0aed4d994e67748",
+      "working_sha256": "e639e1282254c1719d487d61e9e0356796a16bf8c4e933d7c522a3c6d7b571d0",
+      "body_sha256": "0c74c9f5fb4adea850becd4caccf7c5c2991ef5499a6dd345881054e5335260a"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/SimplexFloor.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "0de2e2a91a4959f1c13dbcab806d0536a9b57104cff24be33cc56f1974fe535b",
+      "working_sha256": "3ff954b7fe6dee72d700096378e4cb43850ad9c129382a69fcc82cfd9cd17602",
+      "body_sha256": "435f39adaefb9c1491781e6bdbd70f26349fd21f8092ddbd825977f76481b911"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/SimplexRationalWeights.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "bafcc114aecf646b2a78a275f6cb274e954d5e7049801e7ca8263974ad0a05bd",
+      "working_sha256": "adfe5db32c429523d091f9ff8e583af315a101e200b2c7beb34e1a8993042073",
+      "body_sha256": "67e017618bcb09b1450bf02d13d6d45fef0094ecd75601a88a0438afa28250c3"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/SimplexUnweighted.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "f686496b4ca150953060253358956917bca9c29b3d185c511baf732a1cd6c44a",
+      "working_sha256": "307419eba879ffd5e39730b589964a2804858b20e27d6100d02635ebcf2b18a8",
+      "body_sha256": "a95d7b9708462d12b08f5569dfcf31e7fc9a5be051eddc06856bd24cf05fa267"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Polynomials/SurjectiveGradedMap.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "23175ff568e4b161af0ae4c966bfb4cbc9964dd54ea79524e745e0b49fc25a1a",
+      "working_sha256": "24da6797f3646a3b1ef63f3aa8f3378aa9c0ecad0f51b68bacb69f87596b9774",
+      "body_sha256": "d42806b8f8978b562c1c93ab2a4f9aaa1c860b54befe1d6615e481fbc582d207"
+    },
+    {
+      "path": "OAI/NumberTheory/PiExponent/Statement.lean",
+      "change": "Import headers only; original proof/declaration body identical",
+      "original_imports": [
+        "import Mathlib"
+      ],
+      "working_imports": [
+        "import SupportCore"
+      ],
+      "original_sha256": "7287b5651b7d76ad871ab60de3e2ff65f9e68e6f36223a3ff8e6b764784d3f7d",
+      "working_sha256": "4dd78d9f410d50809081be0e0e6b0c51bd292d0a36c41752dbd4e400e1afacf7",
+      "body_sha256": "071a834225fd1bf919a8f229378530ac58162a41f34637e546765ba5fe053113"
+    }
+  ]
+}

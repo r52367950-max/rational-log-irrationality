@@ -1,0 +1,112 @@
+{
+  "checked_at_utc": "2026-10-07T05:30:28.806365+00:00",
+  "command": "bash check.sh adapters/OAIApproximationAdapter.lean",
+  "exit_code": 0,
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "original_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "source_sha256": "6f8dc07351f2a715e39bcfb8255062007c0f90781e80de7da82ed368a481b410",
+  "axiom_entry_count": 11,
+  "contains_sorryAx": false,
+  "entries": [
+    {
+      "declaration": "OAI.PiExponent.eventualLowerBound_iff_integer",
+      "kind": "original_oai017",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.PiExponent.two_mem_approximationExponents",
+      "kind": "original_oai017",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.PiExponent.irrationalityExponent_eq_two_of_eventualLowerBound",
+      "kind": "original_oai017",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.PiExponent.eventualLowerBound_of_not_unbounded_approximations",
+      "kind": "original_oai017",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.rational_has_large_exact_representation",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.irrational_of_original_eventualLowerBound",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.exponent_two_of_original_eventualLowerBound",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_manuscript_bound",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_integer_bound",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_no_unbounded_approximants",
+      "kind": "adapter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ]
+}

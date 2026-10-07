@@ -1,0 +1,8 @@
+{
+  "status": "all exact finite checks passed",
+  "translation_coefficients": 1620,
+  "denominator_entries": 1620,
+  "distinct_degree_groups": 848,
+  "identities": 3,
+  "scope": "finite falsification checks, not a proof of A or B"
+}

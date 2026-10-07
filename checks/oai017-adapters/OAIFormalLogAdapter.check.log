@@ -1,0 +1,48 @@
+'IrrationalityReview.OAIFormalLogAdapter.centeredMonomialImage_eq_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredEntry_eq_original_entry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredFormalMonomialImage_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation_choices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_det_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_support_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_power_entry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_power_entry_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.nonzero_rowScalar_tail_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_base_denominator_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.rational_base_column_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centered_real_rational_entry_cleared_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.OAIFormalLogAdapter.centeredRationalMatrix_arithmetic_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
