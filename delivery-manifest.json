@@ -6,13 +6,49 @@
   "oai017_new_theorem_count": 459,
   "pristine_source_count": 869,
   "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
-  "file_count": 1878,
-  "total_source_bytes": 11410780,
+  "file_count": 1849,
+  "total_source_bytes": 10462257,
   "files": [
     {
+      "path": ".gitignore",
+      "bytes": 67,
+      "sha256": "8f8939ae8eea7b2e3d34d3b09bbf38d71c50bcc9b7cba812c78632cff4abd41c",
+      "source": "repository"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1163,
+      "sha256": "d43ceb4f287878ec2542ab32a192b72a0677e126a00df48047b891de09ec9e64",
+      "source": "repository"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "repository"
+    },
+    {
+      "path": "LICENSE-DOCS.md",
+      "bytes": 990,
+      "sha256": "d57597aeb1cd5bb2c61a7efc323e2e04f3d1b497f972afd55b9867fa6e1946b0",
+      "source": "repository"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1013,
+      "sha256": "f4e0138f0625f0e2161f8c700396156cf3e9f968f86ada3e6ef9677eac993761",
+      "source": "repository"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 2974,
+      "sha256": "7453fc3229004780dd9cf977c3576be1f135f72993510cd3e089db1eef51b708",
+      "source": "repository"
+    },
+    {
       "path": "README.md",
-      "bytes": 3328,
-      "sha256": "13ae4c60f5c72bfb81705427ee4fb92540b362d85a9bb883a0c16cf80500a06c",
+      "bytes": 6775,
+      "sha256": "de5237f7a16a4e475c442734c332b4ed00f8bd6f43333e94cf21bc93cc7168e6",
       "source": "generated"
     },
     {
@@ -106,12 +142,6 @@
       "source": "exact_checks.py"
     },
     {
-      "path": "checks/final-main-receipt.json",
-      "bytes": 6718,
-      "sha256": "e568c016ed153efe23f60dfd57c8b32edbbb9653af2bb7a64c999fb03853b5ec",
-      "source": "oai017/final-main-receipt.json"
-    },
-    {
       "path": "checks/final-main/RationalLogReview_Main_strict_rational_log_main.certificate.log",
       "bytes": 125,
       "sha256": "81fe3655f9028d989ba52336c62c3366abd51968ffc34c2de78a1134263ebd2c",
@@ -142,16 +172,10 @@
       "source": "oai017/verification/RationalLogReview_Main_strict_rational_log_main_Guard.lean"
     },
     {
-      "path": "checks/lean-local-final-audit.log",
-      "bytes": 6176,
-      "sha256": "7ae3fb61e445e3c934ad044117c2ec915086ba11de2c2bee5d2c8bc4b39a5c6d",
-      "source": "portable_project/axioms-final.log"
-    },
-    {
-      "path": "checks/lean-local-theorem-axioms.json",
-      "bytes": 8903,
-      "sha256": "f20359ebd1e621123218306d9864e5350e61c53b11389ace856d3189ded18bd9",
-      "source": "generated"
+      "path": "checks/final-main-receipt.json",
+      "bytes": 6718,
+      "sha256": "e568c016ed153efe23f60dfd57c8b32edbbb9653af2bb7a64c999fb03853b5ec",
+      "source": "oai017/final-main-receipt.json"
     },
     {
       "path": "checks/lean-local/axioms-final.log",
@@ -170,6 +194,18 @@
       "bytes": 8015,
       "sha256": "15dd59ef6687daff545deccec6312783d1398d51a9904a1b79c5c443014685a3",
       "source": "portable_project/integration.log"
+    },
+    {
+      "path": "checks/lean-local-final-audit.log",
+      "bytes": 6176,
+      "sha256": "7ae3fb61e445e3c934ad044117c2ec915086ba11de2c2bee5d2c8bc4b39a5c6d",
+      "source": "portable_project/axioms-final.log"
+    },
+    {
+      "path": "checks/lean-local-theorem-axioms.json",
+      "bytes": 8903,
+      "sha256": "f20359ebd1e621123218306d9864e5350e61c53b11389ace856d3189ded18bd9",
+      "source": "generated"
     },
     {
       "path": "checks/lean-oai017-final-audit.log",
@@ -215,21 +251,21 @@
     },
     {
       "path": "checks/portable-round2-receipt.json",
-      "source": "completed verification logs",
       "bytes": 5007,
-      "sha256": "2af94dffb86a71035164204e176cfb24ca4b39a0ee8c057c300130b043eefd0f"
+      "sha256": "2af94dffb86a71035164204e176cfb24ca4b39a0ee8c057c300130b043eefd0f",
+      "source": "completed verification logs"
     },
     {
       "path": "checks/portable-round2-verification.log",
-      "source": "completed verification logs",
       "bytes": 91181,
-      "sha256": "54e9ba7da87180f331011c1ca2740e0801e683924fb05fe821e626600d9d671b"
+      "sha256": "54e9ba7da87180f331011c1ca2740e0801e683924fb05fe821e626600d9d671b",
+      "source": "completed verification logs"
     },
     {
       "path": "checks/prior-portable-verification.log",
-      "source": "completed verification logs",
       "bytes": 44899,
-      "sha256": "f0b4b239d8a66954b51aa3f8535e74eb3358e0d4b30f0ea95ffc8e83004afa5a"
+      "sha256": "f0b4b239d8a66954b51aa3f8535e74eb3358e0d4b30f0ea95ffc8e83004afa5a",
+      "source": "completed verification logs"
     },
     {
       "path": "checks/source_sha256.json",
@@ -239,20 +275,20 @@
     },
     {
       "path": "helpers/DELIVERY_README.zh.md",
-      "bytes": 3367,
-      "sha256": "4c7fc86818563278dad251fffdee5f279dc1305002d494a52ae7a02b65dd2924",
+      "bytes": 6814,
+      "sha256": "a499f47d026aa6713effe94611d62891f3e4c4672bfeb1d8a8e55888fc183bc0",
       "source": "DELIVERY_README.zh.md"
     },
     {
       "path": "helpers/prepare_delivery.py",
-      "bytes": 17041,
-      "sha256": "619a250950c13fc9f7f779d946ff71a6ec67275dc324de48ad46c2612e630b70",
+      "bytes": 6387,
+      "sha256": "e7d6bc97f89fab2ce914bb902eb9e52084e6e8a06aae9a043c2b6c8417485bca",
       "source": "prepare_delivery.py"
     },
     {
       "path": "helpers/verify_delivery.py",
-      "bytes": 2433,
-      "sha256": "5dd884993b7d7b5705eec9adf87c9de2c8968a952845968c86751d76504f9047",
+      "bytes": 2678,
+      "sha256": "28902e7e011c329152faa267d51255fdf4bae9cca99d5941495cde9d34aa85bc",
       "source": "verify_delivery.py"
     },
     {
@@ -11045,219 +11081,9 @@
     },
     {
       "path": "round2/NS_source_review.md",
-      "bytes": 10728,
-      "sha256": "86f95371c71d065bcaf721c5f8a391720403a525333ab22a20d918af693af9b6",
+      "bytes": 845,
+      "sha256": "252415977ca6d691eebdb54ac0ded24ec1b50d5649981f09982f6dc3cc88f7d1",
       "source": "round2/NS_source_review.md"
-    },
-    {
-      "path": "round2/ns_comparator_source/Comparator/Axioms.lean",
-      "bytes": 2389,
-      "sha256": "863c5e1329811be0427880e08c171de733343491c5a3619b5dbf2e12b34c6125",
-      "source": "round2/ns_comparator_source/Comparator/Axioms.lean"
-    },
-    {
-      "path": "round2/ns_comparator_source/Comparator/Compare.lean",
-      "bytes": 4089,
-      "sha256": "9bc34cb7de5a069a6fef7f3b13b20fea22f1d52603f74320a93d519b735ad3dd",
-      "source": "round2/ns_comparator_source/Comparator/Compare.lean"
-    },
-    {
-      "path": "round2/ns_comparator_source/LICENSE",
-      "bytes": 11357,
-      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "source": "round2/ns_comparator_source/LICENSE"
-    },
-    {
-      "path": "round2/ns_comparator_source/Main.lean",
-      "bytes": 12997,
-      "sha256": "b95ab1b6293f97fa16ecae548cf452b009ba035fc0273fe83b894769435ef6ef",
-      "source": "round2/ns_comparator_source/Main.lean"
-    },
-    {
-      "path": "round2/ns_comparator_source/README.md",
-      "bytes": 9960,
-      "sha256": "cfdf0ff608755d56f3bad62acc86273bc0c11591335678344bf53cb733b61772",
-      "source": "round2/ns_comparator_source/README.md"
-    },
-    {
-      "path": "round2/ns_millennium_meta/comparator-source-provenance.json",
-      "bytes": 1279,
-      "sha256": "f2259d45259834fe8e40f0fe493c16e27f8695a06dac68f865bd818352ef48cc",
-      "source": "round2/ns_millennium_meta/comparator-source-provenance.json"
-    },
-    {
-      "path": "round2/ns_millennium_meta/comparator-tree.json",
-      "bytes": 30488,
-      "sha256": "53e5404dd8a07098bd88eab9748a1a089a60a030a6231ffbbead25ec1a82d0ea",
-      "source": "round2/ns_millennium_meta/comparator-tree.json"
-    },
-    {
-      "path": "round2/ns_millennium_meta/main-ref.json",
-      "bytes": 352,
-      "sha256": "44692db796d873b727353223d253f6dc97a0eed1c5d170b7fbf047b031130f52",
-      "source": "round2/ns_millennium_meta/main-ref.json"
-    },
-    {
-      "path": "round2/ns_millennium_meta/repository.json",
-      "bytes": 6674,
-      "sha256": "5710e7237e3615a86981a52a9f7e309e9c2d22ee7d6dc0ad0fb26cb4b034f5db",
-      "source": "round2/ns_millennium_meta/repository.json"
-    },
-    {
-      "path": "round2/ns_millennium_meta/source-provenance.json",
-      "bytes": 8694,
-      "sha256": "b1b7f680674f4661ee4049a25fb368655c193261e8e50904f709e7f0c2f6e0a3",
-      "source": "round2/ns_millennium_meta/source-provenance.json"
-    },
-    {
-      "path": "round2/ns_millennium_meta/tree.json",
-      "bytes": 679834,
-      "sha256": "ab894e25d8480a22f20bbc35e57e747e8e1776f3dbbe39bed928a0f3f11691c6",
-      "source": "round2/ns_millennium_meta/tree.json"
-    },
-    {
-      "path": "round2/ns_millennium_source/ComparatorChallenges/NavierStokes.json",
-      "bytes": 375,
-      "sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
-      "source": "round2/ns_millennium_source/ComparatorChallenges/NavierStokes.json"
-    },
-    {
-      "path": "round2/ns_millennium_source/ComparatorChallenges/NavierStokes.lean",
-      "bytes": 13031,
-      "sha256": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61",
-      "source": "round2/ns_millennium_source/ComparatorChallenges/NavierStokes.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/ComparatorChallenges/README.md",
-      "bytes": 665,
-      "sha256": "f28c5f581d7bbc9504db467b88686a89ad5a94e4fd38b48a1866ae6224b5a1d8",
-      "source": "round2/ns_millennium_source/ComparatorChallenges/README.md"
-    },
-    {
-      "path": "round2/ns_millennium_source/Euler.lean",
-      "bytes": 30,
-      "sha256": "1f1dabe1950245aee0ae073e61eaeb3cfe47f0c18a9ba7b43ba325cb587964c7",
-      "source": "round2/ns_millennium_source/Euler.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/LICENSE",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source": "round2/ns_millennium_source/LICENSE"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes.lean",
-      "bytes": 72,
-      "sha256": "aa93efae7c7d7e44f2bb421d85587e7e9610e03ce67e15a15ed86acad2d014a1",
-      "source": "round2/ns_millennium_source/NavierStokes.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ActualCandidateAssembly.lean",
-      "bytes": 65609,
-      "sha256": "bba2f74a938039caec486ca6a35576efd21e6fe35c1ba695e4d21609d89b8a94",
-      "source": "round2/ns_millennium_source/NavierStokes/ActualCandidateAssembly.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/CandidateConsequences.lean",
-      "bytes": 11789,
-      "sha256": "4dbfba3964bbff446b34f92bb4047d36f2df07a28c6b83caeb5dfa7f6a16f101",
-      "source": "round2/ns_millennium_source/NavierStokes/CandidateConsequences.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ComparatorBridge.lean",
-      "bytes": 12624,
-      "sha256": "cbb7731d5dc36363f0d4c3d1d3aba572302de4dc474d3a329b975d8d646c50ab",
-      "source": "round2/ns_millennium_source/NavierStokes/ComparatorBridge.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ComparatorDefinitions.lean",
-      "bytes": 10979,
-      "sha256": "8d90e0f9eee14f8b01773852083a02fd58bda59d4de2abb60d1787bbc9f6ebf4",
-      "source": "round2/ns_millennium_source/NavierStokes/ComparatorDefinitions.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ComparatorR3Theorem.lean",
-      "bytes": 2098,
-      "sha256": "d05cd1c55e78709dabe1996546eb6ddaaa46e602d2ef1b05c6e2085320781207",
-      "source": "round2/ns_millennium_source/NavierStokes/ComparatorR3Theorem.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ComparatorSolution.lean",
-      "bytes": 1359,
-      "sha256": "52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227",
-      "source": "round2/ns_millennium_source/NavierStokes/ComparatorSolution.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ComparatorTheorem.lean",
-      "bytes": 2711,
-      "sha256": "629c992327e531611c20165eb14db24edcabcf8f646a1d2689be9ac6fe2a9c68",
-      "source": "round2/ns_millennium_source/NavierStokes/ComparatorTheorem.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/PeriodicComparatorSolution.lean",
-      "bytes": 1513,
-      "sha256": "3959b5ea8f674ed0798d29618f086688db6b37dfcf7dd1676477811d819896dd",
-      "source": "round2/ns_millennium_source/NavierStokes/PeriodicComparatorSolution.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/PeriodicPaperComparator.lean",
-      "bytes": 2674,
-      "sha256": "cc43036123e52c0f2aa895a9c6cc2ef8f222831f0fbb6a1988b6414567ff10a2",
-      "source": "round2/ns_millennium_source/NavierStokes/PeriodicPaperComparator.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/PeriodicPaperTheorem.lean",
-      "bytes": 8048,
-      "sha256": "ca8ff98ef146dbbc136b0837888565385ad035f6e47b606d0bb075156c1ff7b2",
-      "source": "round2/ns_millennium_source/NavierStokes/PeriodicPaperTheorem.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/ProblemStatement.lean",
-      "bytes": 8107,
-      "sha256": "d2f5cdf24a060acd41011b50492e89058991965e18d2cb797c58d915f95af633",
-      "source": "round2/ns_millennium_source/NavierStokes/ProblemStatement.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/R3/ActualCandidate.lean",
-      "bytes": 7494,
-      "sha256": "93d728679c20650ca6ae256b8f96618aaaf004904b589d8f69da759e740046fa",
-      "source": "round2/ns_millennium_source/NavierStokes/R3/ActualCandidate.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/R3/ComparatorBridge.lean",
-      "bytes": 3739,
-      "sha256": "67ce14dd70f976851962b9129cd195913e34b2bc353f78913b7c5b77e44b9dbd",
-      "source": "round2/ns_millennium_source/NavierStokes/R3/ComparatorBridge.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/R3/ProblemStatement.lean",
-      "bytes": 10258,
-      "sha256": "8b0a28b3b93fb8dfcf967d0082a5a2829a5e5f079de6662c846417057b0856d7",
-      "source": "round2/ns_millennium_source/NavierStokes/R3/ProblemStatement.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/NavierStokes/R3/Theorem.lean",
-      "bytes": 3850,
-      "sha256": "e896ba297671c33d516d41fa47e7e186438b71ec14ab0738d3d3fc9e4df341cb",
-      "source": "round2/ns_millennium_source/NavierStokes/R3/Theorem.lean"
-    },
-    {
-      "path": "round2/ns_millennium_source/README.md",
-      "bytes": 2470,
-      "sha256": "25f3752edf6d674064b67f995691ddd15bffaf347822086cba3fbd5333781f49",
-      "source": "round2/ns_millennium_source/README.md"
-    },
-    {
-      "path": "round2/ns_millennium_source/lake-manifest.json",
-      "bytes": 3810,
-      "sha256": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09",
-      "source": "round2/ns_millennium_source/lake-manifest.json"
-    },
-    {
-      "path": "round2/ns_millennium_source/lean-toolchain",
-      "bytes": 29,
-      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
-      "source": "round2/ns_millennium_source/lean-toolchain"
     },
     {
       "path": "round2/完整常规主定理证明.md",
@@ -11273,8 +11099,8 @@
     },
     {
       "path": "复核与重要性评估.md",
-      "bytes": 8440,
-      "sha256": "15f4a7611f520a339277a1fd50436b1032c359ffd41fb2ee2dc87658034163dc",
+      "bytes": 8556,
+      "sha256": "a9ffdb2eeaa5a8650d15adfc28322f7f5f32dee96426feaceb434e9f4c971fd4",
       "source": "复核与重要性评估.md"
     }
   ],
