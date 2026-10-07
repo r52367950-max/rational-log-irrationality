@@ -7,7 +7,7 @@
   "pristine_source_count": 869,
   "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
   "file_count": 1849,
-  "total_source_bytes": 10462257,
+  "total_source_bytes": 10462197,
   "files": [
     {
       "path": ".gitignore",
@@ -17,8 +17,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1163,
-      "sha256": "d43ceb4f287878ec2542ab32a192b72a0677e126a00df48047b891de09ec9e64",
+      "bytes": 1151,
+      "sha256": "ee5c35b5a20c41af5d462356953a62249e0db7df714bc9a0aef6cb0b2deded7c",
       "source": "repository"
     },
     {
@@ -29,26 +29,26 @@
     },
     {
       "path": "LICENSE-DOCS.md",
-      "bytes": 990,
-      "sha256": "d57597aeb1cd5bb2c61a7efc323e2e04f3d1b497f972afd55b9867fa6e1946b0",
+      "bytes": 984,
+      "sha256": "e1ae4fc5a7e35022fe7f56f6ac054bb5521638776ebf50a3f3ab2419307f238a",
       "source": "repository"
     },
     {
       "path": "NOTICE",
-      "bytes": 1013,
-      "sha256": "f4e0138f0625f0e2161f8c700396156cf3e9f968f86ada3e6ef9677eac993761",
+      "bytes": 1007,
+      "sha256": "b9e69f2d6b0a9647af7b55fa567e7f2cdadfad30bed80501204de6584db34498",
       "source": "repository"
     },
     {
       "path": "PUBLICATION.md",
-      "bytes": 2974,
-      "sha256": "7453fc3229004780dd9cf977c3576be1f135f72993510cd3e089db1eef51b708",
+      "bytes": 2968,
+      "sha256": "89e4c6d7c6b0ffa68a1245b8378d174d60e7817e88161f71d9f1146ccad2a822",
       "source": "repository"
     },
     {
       "path": "README.md",
-      "bytes": 6775,
-      "sha256": "de5237f7a16a4e475c442734c332b4ed00f8bd6f43333e94cf21bc93cc7168e6",
+      "bytes": 6763,
+      "sha256": "595016b6fea51b7b184077ed3054376d85be9564d401d7c919e725691c844929",
       "source": "generated"
     },
     {
@@ -275,8 +275,8 @@
     },
     {
       "path": "helpers/DELIVERY_README.zh.md",
-      "bytes": 6814,
-      "sha256": "a499f47d026aa6713effe94611d62891f3e4c4672bfeb1d8a8e55888fc183bc0",
+      "bytes": 6802,
+      "sha256": "c6e254211600059c60857c61de68c8c9a45084ef5a533f23daca2a433a4cea50",
       "source": "DELIVERY_README.zh.md"
     },
     {
@@ -11099,8 +11099,8 @@
     },
     {
       "path": "复核与重要性评估.md",
-      "bytes": 8556,
-      "sha256": "a9ffdb2eeaa5a8650d15adfc28322f7f5f32dee96426feaceb434e9f4c971fd4",
+      "bytes": 8550,
+      "sha256": "af726f5d7465f8cde993e6d54c478306fa17d4318cd936ff5125e8c3b60733ac",
       "source": "复核与重要性评估.md"
     }
   ],
