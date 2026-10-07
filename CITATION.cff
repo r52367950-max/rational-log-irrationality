@@ -1,0 +1,25 @@
+# Metadata prepared for the first release. Update date-released if needed
+# before publishing the planned v1.0.0 release; no release or DOI exists yet.
+cff-version: 1.2.0
+message: "Please cite this repository if you use its code or proof materials, and retain the AI-generation and review-status disclosures."
+type: software
+title: "Rational logarithms: AI-generated proofs and Lean formalization"
+authors:
+  - family-names: "r52367950-max"
+version: "1.0.0"
+date-released: "2026-10-07"
+url: "https://github.com/r52367950-max/rational-log-irrationality"
+repository-code: "https://github.com/r52367950-max/rational-log-irrationality"
+license: Apache-2.0
+abstract: >-
+  AI-generated mathematical proof and Lean formalization of a claimed
+  irrationality-exponent result for logarithms of positive rational numbers,
+  extending OpenAI OAI017 methods. r52367950-max is the project initiator and
+  curator. The work has not been reviewed by human mathematical experts.
+  Original prose and manuscripts are licensed separately under CC BY 4.0.
+keywords:
+  - Lean
+  - formal verification
+  - Diophantine approximation
+  - rational logarithms
+  - AI-generated mathematics

@@ -12,8 +12,11 @@ from pathlib import Path
 
 root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 manifest = json.loads((root / "delivery-manifest.json").read_text())
+assert manifest["file_count"] == len(manifest["files"])
+assert manifest["total_source_bytes"] == sum(entry["bytes"] for entry in manifest["files"])
+assert len({entry["path"] for entry in manifest["files"]}) == len(manifest["files"])
 for entry in manifest["files"]:
-    path = root / entry["path"]
+    path = (root / entry["path"]).resolve()
     assert path.is_relative_to(root), entry["path"]
     data = path.read_bytes()
     assert len(data) == entry["bytes"], entry["path"]
