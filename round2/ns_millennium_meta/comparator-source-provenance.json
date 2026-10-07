@@ -1,0 +1,41 @@
+{
+  "repository": "leanprover/comparator",
+  "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+  "files": [
+    {
+      "path": "Comparator/Axioms.lean",
+      "bytes": 2389,
+      "git_blob_sha1": "8da75bf80b27f2a71ad2312653b105442c5f5992",
+      "upstream_git_blob_sha1": "8da75bf80b27f2a71ad2312653b105442c5f5992",
+      "verified": true
+    },
+    {
+      "path": "Comparator/Compare.lean",
+      "bytes": 4089,
+      "git_blob_sha1": "8bf63632315171a533d41479c7d831d9e6fcd175",
+      "upstream_git_blob_sha1": "8bf63632315171a533d41479c7d831d9e6fcd175",
+      "verified": true
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "upstream_git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "verified": true
+    },
+    {
+      "path": "Main.lean",
+      "bytes": 12997,
+      "git_blob_sha1": "95c18e1423e1281e79c72a6dbd9ed917be8a0147",
+      "upstream_git_blob_sha1": "95c18e1423e1281e79c72a6dbd9ed917be8a0147",
+      "verified": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 9960,
+      "git_blob_sha1": "e1d67f66231d4d18feae57797ee850ab5e00f2c0",
+      "upstream_git_blob_sha1": "e1d67f66231d4d18feae57797ee850ab5e00f2c0",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,3562 @@
+[
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.baseColumnScale.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredEntry.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredEntry_eq_original_entry",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredFormalMonomialImage.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredFormalMonomialImage_coeff",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredMonomialImage.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredMonomialImage_eq_scaled",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_shift",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredPeriodMonomial_support_subset",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredRationalMatrix.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centeredRationalMatrix_arithmetic_lower_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centered_det_translation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centered_entry_translation_choices",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.centered_real_rational_entry_cleared_gaussian",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.commonDenominator.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.nonzero_rowScalar_tail_budget",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.rational_base_column_scale",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.rational_base_column_scale._proof_1_1",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.rational_base_denominator_identity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.rational_power_entry",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.rational_power_entry_translation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_3",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_4",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_5",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_6",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.OAIFormalLogAdapter.real_rational_entry_cleared_gaussian._simp_1_7",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.baseCost_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.baseCost_le._proof_1_1",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_3",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_4",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_5",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_6",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound._simp_1_7",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_arithmetic_lower_bound_common_error",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.centeredSelectedMinor_clearing_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.log_baseColumnScale",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogArithmeticAssembly.reciprocal_logWeights_sum_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.actualPacket_exists_arithmetic_minor",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.centeredEntry_eq_coeff_truncatedFormalJetAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.centeredMatrix._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_mulVec_eq_coeff",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_surjective_of_formal_packets",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.centeredMatrix_surjective_of_rational_packets",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.centered_formal_packets_surjective_iff_truncated",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.nonzero_centered_minor_of_actual_packet_surjective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.rationalBase_nonzero_centeredSelectedMinor",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.scaleY_monomial",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.scaleY_monomial._simp_1_1",
+    "axioms": []
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.truncatedFormalJetAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.RationalLogMatrixBridge.truncationOrders_satisfy_packet_weight",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.chartIso",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.chart_nonempty",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.coordinates_generate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.essFiniteType",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.generic_coordinates",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.mk.inj",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.mk.injEq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.mk.sizeOf_spec",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.normalizationFinite",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.normalization_over",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.parameterFinite",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.parameter_transcendental",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.ModelData.trdeg_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.center_point_isClosed",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.eventual_interpolation_of_separated_weights",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.Weighted.nonnegative_separated_curve_degrees",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.aeval_scaleY_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.centerMorphism_eq_centeredLiftAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.centered_of_closedPoint_eqAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.compactIdealAt_comap_ne_bot_of_generic",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.compactIdealAt_degree_eq_neg_contact_sum",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData._simp_1_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.exists_modelData._simp_1_3",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.localIdealAt_length_eq_logContactAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.localIdeal_compactIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.map_polynomialIdealAt_eq_selected",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.map_polynomialIdealAt_eq_selected._simp_1_1",
+    "axioms": []
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.map_powerIdealAt_aeval",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.map_powerIdealAt_eq_top_of_transcendental",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Degree.map_powerIdealAt_eq_top_of_transcendental._simp_1_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.ExceedsSuccessiveBounds._proof_1",
+    "axioms": []
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.affineFrame_exists",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_restrict",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_support",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_support_ne_top",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.centerIdeal_support_subset_chart",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart._proof_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart_openImmersion",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart_over",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.chart_quasiCompact",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification._proof_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification._proof_3",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification_integral",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification_locallyNoetherian",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.compactification_nonempty",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_interpolation_of_curve_degrees",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_packetMapAt_surjective_of_curve_degrees",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_packetMapAt_surjective_of_eventual_jetRestriction",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.eventual_section_supportBound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.hyperplane_ample",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.index_nonempty",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.logCutoff._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.logCutoff._proof_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.logCutoff_strict",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.origin._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.origin_ne_centerPointAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.scale.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.Weighted.structure_proper",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.affineIdealAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.centerAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.centerPointAt._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.compactIdealAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt_succ",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt_succ._simp_1_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.coordinatesAt_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.eval_centerAt_scaleY",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_mem_weighted_of_mem_pow",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packet_eq_of_sub_mem_pow",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packet_surjective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.formalJetAt_packets_surjective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.formalPackets_surjective_of_jetRestrictionAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.packets_surjective_of_polynomialIdealAt_quotient",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.pointAt_section",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.polynomialIdealAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.polynomialIdealAt_pow_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt_eq_map_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt_eq_span",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.powerIdealAt_pairwise_isCoprime",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.radical_powerIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.range_pointAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.restrict_compactIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.scaleY_surjective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.support_affineIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.support_compactIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.zeroLocus_finset_prod_powerIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.Global.zeroLocus_powerIdealAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.aeval_normalize_scaleY",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.aeval_scaleY",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.all_centered_branches_have_one_index",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centerAtIndex._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centerAtIndex.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.center_index_unique_of_constant_y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centeredAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centered_normalize",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centers.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centers_succ",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.centers_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.coordinatePole_constant",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.eventually_exists_auxiliaryPolynomialAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.eventually_exists_auxiliaryPolynomialAt_nat",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.eventually_persistent_derivatives_at_most_one_center",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.exact_logarithmic_differential_forces_constant",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.excess_implies_zeroth_center",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.exists_successive_curve_weights",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt._proof_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt_nonneg",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt_nonneg._simp_1_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyContactAt_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.familyLogWord_order_lower",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt_X",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt_Y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrame",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrameWord",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetAt_polynomialFrameWord_vanishing",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetEvaluationAt._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.formalJetEvaluationAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.localLogIdealAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.localLogIdealAt_colength_eq_contact",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt._proof_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt_congr_coordinates",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt_constant_y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logContactAt_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logWord_field_order_lower_at",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.logarithmic_words_vanish_at",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.mem_placesAt",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.new_packets_surjective_of_power_quotients",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.no_excess_of_constant_y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalizeCoordinates._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalizeCoordinates_succ",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalizeCoordinates_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalize_constant_y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalize_constant_y._simp_1_1",
+    "axioms": []
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalize_nonconstant",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalize_nonconstant._simp_1_1",
+    "axioms": []
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalize_nonconstant._simp_1_2",
+    "axioms": []
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalized_lift_succ",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.normalized_lift_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_at_most_one_center",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y._simp_1_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.persistent_derivatives_force_center_y._simp_1_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.placesAt._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.placesAt.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_X",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_Y",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_inv_left",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_inv_right",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_mul",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrame",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrameWord",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_polynomialFrame_X",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.scaleY_supportBound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.separated_distinct_multiplicative_interpolation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.single_center_fibre_curve_inequality",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.weightedDegree_constant",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.weighted_curve_inequality_at",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.weighted_curve_inequality_at_of_model",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.zeroth_constant_of_weighted_normal_comparison",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicative.zeroth_constant_of_weighted_normal_comparison._simp_1_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicativeAmple.eventual_jetRestriction_surjective_of_nonnegative_curve_degree",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicativeAmple.eventual_jetRestriction_surjective_of_uniform_curve_margin",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "OAI.PiExponent.DistinctMultiplicativeAmple.formalCoefficientPackets_surjective_of_jetRestriction",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.positive_rational_exp_log_center",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rationalFormalMonomialImage.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rationalFormalMonomialImage_coeff",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rationalPeriodMonomial.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rationalPeriodMonomial_coeff_eq_rowTest",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rationalPeriodMonomial_coeff_eq_rowTest._simp_1_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rationalPeriodMonomial_shift",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_det_matrix_translation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_center_radius_budget",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_coefficient_determinant_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_error_exp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_monomial_determinant_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_monomial_determinant_bound._simp_1_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_periodMonomial_coeff_eq_rowTest",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_rowScalar_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_log_row_order_budget",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_matrix_entry_translation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_matrix_entry_translation_choices",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogOAI017.rational_periodFunction_eq_exponentialMonomial",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.A_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.F0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.K_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.R0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.approximations",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.eta_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.mk.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.mk.inj",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.mk.injEq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.mk.sizeOf_spec",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.q_two_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.r_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.radius_budget",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.theta_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.v0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.w0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.wstar_lower",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.Data.wstar_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualMatrix._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualMatrix.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualMean.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualMean_bounds",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualMinor.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualMinor_eq_centeredSelectedMinor",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualRowCount.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actualRowCount_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actual_minor_analytic_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actual_minor_arithmetic_lower_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.actual_minor_expansion",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.analyticError_ofSelected",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.analytic_aggregate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.arithmeticError.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.arithmeticError_ofSelected",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.card_choiceFamily_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.choiceScalar.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.collisionConstant._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.collisionConstant._proof_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.collisionConstant_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.collisionLimit_ofSelected",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.fixedWeights.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.fixedWeights_lower",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.fixedWeights_one_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.fixedWeights_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.indexWeight.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.indexWeight_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.indexWeight_nonneg",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.lowIndexCount_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.low_transverse_capacity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.norm_actual_summand_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.norm_actual_summand_le._simp_1_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.norm_choiceMatrix_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.norm_choiceScalar_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.norm_scalar_product_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_10",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_11",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_12",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_13",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_3",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_4",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_5",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_6",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_7",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_8",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected._proof_9",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected.congr_simp",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.ofSelected.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.rationalCenters.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.rational_log_endpoint_of_cofinal_interpolation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.rational_log_endpoint_of_cofinal_packets",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.rowOrder_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.rowWeight.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.rowWeight_le_indexWeight_of_ne_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.selected_contradiction_of_cofinal_interpolation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.selected_contradiction_of_cofinal_packets",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.sourceWeights.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.sourceWeights_cast",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.sum_rowWeight_eq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.targetWeights.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.targetWeights_cast",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.targetWeights_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.tendsto_analyticRemainder",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.tendsto_collisionRate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Analytic.translationError.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_coordinate_ratio",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_3",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_4",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_5",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_6",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_product_ratio._simp_1_7",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_fibre_volume",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_product_ratio",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_separated_weight_products",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.curve_volume",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.sourceWeights_cast",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.sourceWeights_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.sourceWeights_succ",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.sourceWeights_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.targetWeights_cast",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.targetWeights_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.targetWeights_succ",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.GeometryParameters.targetWeights_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Main.cofinal_packet_interpolation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Main.complex_rational_power_centers",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Main.rational_log_main",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Main.rational_power_centers_injective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Main.strict_rational_log_main",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.MainReference.StrictRationalLogMain._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.ManuscriptStrictBound._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.exponent_two_of_original_eventualLowerBound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.irrational_of_original_eventualLowerBound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict._proof_1_1",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.rational_has_large_exact_representation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_integer_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_manuscript_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_no_unbounded_approximants",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.F0_large",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.F0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.K_eq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.K_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.collision_margin",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.dimension_margin",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.epsilon_le_half",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.epsilon_lt_gap",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.epsilon_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.initial_margin",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.m_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.mk.inj",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.mk.injEq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.mk.sizeOf_spec",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.sigma_centers",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.sigma_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.sigma_theta",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.sigma_volume",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.v0_eq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.v0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.volume_eq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.volume_lt_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.w0_eq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.FixedParameters.w0_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.approximations",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.cast_rationalWeight",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.collision_exceeds_error_sum",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.contradiction_of_cofinal_bounds",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.contradiction_of_eventual_bounds",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.error_sum_eq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.error_sum_lt_gap",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.mk.inj",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.mk.injEq",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.mk.sizeOf_spec",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.rationalWeight.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.rationalWeight.eq_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.rationalWeight_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.rectangular_multiplicity_constant_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.separated_weight_products",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.w_log",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.w_one_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.w_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.weight_growth",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.weight_margin",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.wstar_attained",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.wstar_lower",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.SelectedParameters.wstar_pos",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.baseRadius_bounds",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.denominatorHeight_nonneg",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.eventualLowerBound_of_selected_contradictions",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_dimension_margin_with_height",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_fixed_parameters",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_large_log_approximation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_normalized_successive_approximations",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_normalized_successive_approximations._proof_1_1",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_rational_log_fixed_parameters",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_rational_log_selected_parameters",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_selected_parameters",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exists_successive_approximations",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.exponent_two_of_selected_contradictions",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.rational_log_endpoint_of_selected_contradictions",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.strictBound_of_selected_contradictions",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.weightErrorCoefficient._proof_1",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.weightErrorCoefficient._proof_2",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.Parameters.weightErrorCoefficient_nonneg",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.eq_1",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.eq_2",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.match_1.eq_1",
+    "axioms": []
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights.match_1.eq_2",
+    "axioms": []
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights_one_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.extendWeights_product",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.geometric_casts",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.successive_implies_separation",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.successive_implies_separation._proof_1_1",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeExistence.0.OAI.PiExponent.DistinctMultiplicative.successive_implies_separation._proof_1_2",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.DistinctMultiplicativeGlobal.0.OAI.PiExponent.DistinctMultiplicative.Global.scaleY_comp_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "_private.RationalLogParameters.0.RationalLogReview.Parameters.SelectedParameters.rationalWeight.match_1.eq_1",
+    "axioms": []
+  },
+  {
+    "theorem": "_private.RationalLogParameters.0.RationalLogReview.Parameters.SelectedParameters.rationalWeight.match_1.eq_2",
+    "axioms": []
+  }
+]

@@ -1,0 +1,29 @@
+'OAI.PiExponent.eventualLowerBound_iff_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.two_mem_approximationExponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.PiExponent.irrationalityExponent_eq_two_of_eventualLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.PiExponent.eventualLowerBound_of_not_unbounded_approximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_has_large_exact_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.irrational_of_original_eventualLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.exponent_two_of_original_eventualLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.original_eventualLowerBound_of_manuscript_strict' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_manuscript_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_integer_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.OAIAdapter.rational_logarithm_endpoint_from_no_unbounded_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

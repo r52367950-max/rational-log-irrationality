@@ -1,0 +1,151 @@
+{
+  "toolchain": "Lean4.34.1",
+  "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "strict_autoImplicit": false,
+  "checked_staged_sources": true,
+  "own_source_reelaboration": true,
+  "dependency_cache": "stock mathlib plus actually compiled pinned OAI proof modules",
+  "complete_original_Main_rebuild": false,
+  "modules": [
+    {
+      "module": "DistinctMultiplicativeRigidity",
+      "source_sha256": "61387842e28480c4cd1cfad1b750dd718381ab41a5cce4a4756b301b3b8f447e",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativePersistent",
+      "source_sha256": "7d81c46110fcfe5a321092a165d4906dd15336d7731860b4f504ecfcaf4abd0a",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeJets",
+      "source_sha256": "7c2261e1865e5911e5e06365e2cb7cfac184c71fdba0d73f932c0650dfb0fb63",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeAmple",
+      "source_sha256": "cac76831778fadf8ef67cfd096867c9c4d8708eb3692118945f3fdeaecf8445b",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeFibre",
+      "source_sha256": "f0a08cab598d3dfc35f7a5281aff5e21ba572f3978103920de6a182ccb9baa0c",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeStatement",
+      "source_sha256": "8b0ad10626290d5dde067c61b6cbf94be35389dad602b76d5a79362c2565c37d",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogAnalytic",
+      "source_sha256": "9b454d43f0ea44bdab43c0d09ac2867a801be556d7bfb7f8b402e21e46eeac0b",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "OAIApproximationAdapter",
+      "source_sha256": "6f8dc07351f2a715e39bcfb8255062007c0f90781e80de7da82ed368a481b410",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "OAIFormalLogAdapter",
+      "source_sha256": "8a5830a68d7ceda66666fb5040fc3e18c9abc070f4febed997c865f276b5f04c",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeContact",
+      "source_sha256": "5a40fa65de1c4ea6a48dd2421817b26ee88c335a276a40792da4670c20f77573",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeGlobal",
+      "source_sha256": "7c7d1a59b6886a2c406afae4f97dd7ba9f2b4372751caaab874adda23d0cbdff",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeDegree",
+      "source_sha256": "a635ba8f948f8ce3e98cecefddc0841f292ac34d50782436dced27e48e11f167",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "DistinctMultiplicativeExistence",
+      "source_sha256": "de5732fdc14f70c14eef493580780d4979d1f76daf442325c47e7aeafa1794e6",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogParameters",
+      "source_sha256": "9c0bbd77386730695c19c05d8961dd062020c1ab8cb5c79b871d2b894a221bcb",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogArithmeticAssembly",
+      "source_sha256": "d2293bb7b7d23a643a13dfa563e9382865030b31253f79f7a3549821c9702b80",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogMatrixBridge",
+      "source_sha256": "ee2bc1d0bc94f360d5639ea12635bdbbc843d734a97f55a1339eaf6cadd35cd6",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogGeometryParameters",
+      "source_sha256": "8f97a4fa22d0d0f5a499c2b175a1fc6dfae9d69f1356a23c3031528cf9a8a649",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogAsymptotic",
+      "source_sha256": "9cd3a8b3e847afac3a43ab76fa1eb0b13d47c8e4b6b7e2878a7f005dc894175a",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "Round2MainReference",
+      "source_sha256": "501b3523523b0192fbce7cc7d49aa3418fe9a701b9d74bbe9f225b3095d3f713",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "Round2MainTypeChecker",
+      "source_sha256": "ed00904941bc505064ce2e1561269323894fa7fa3c347bfbe9072c326f05f272",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "RationalLogMain",
+      "source_sha256": "4d06720df00bd38a0b6fa4056764e1280fc2f92692bf3c630d9cd3ccd6dadae4",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "AdapterAxiomAudit",
+      "source_sha256": "ca5e6e6c9275c7e12016c38badbae6fd0f8107e3d32558cb7b2bb8ba2e88f490",
+      "exit_code": 0,
+      "emitted_olean": true
+    },
+    {
+      "module": "OAI017Review",
+      "source_sha256": "f794fed8a6639643b8c8b5d1e0e19126777c865b442130ccb236b44fe6620054",
+      "exit_code": 0,
+      "emitted_olean": true
+    }
+  ],
+  "status": "accepted",
+  "log_sha256": "54e9ba7da87180f331011c1ca2740e0801e683924fb05fe821e626600d9d671b"
+}

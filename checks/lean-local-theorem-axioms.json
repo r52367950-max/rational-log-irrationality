@@ -1,0 +1,442 @@
+[
+  {
+    "theorem": "RationalLogReview.margin_identity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.margin_lower_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.volume_margin_identity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.small_delta_parameters",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.determinant_bounds_inconsistent",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.sample_parameter_certificate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.eventually_determinant_bounds_inconsistent",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.nonzero_integer_abs_ge_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.integer_matrix_det_abs_ge_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.cleared_integer_lower_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.not_arbitrarilyGoodApproximations_iff",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.rational_has_arbitrarily_large_exact_representations",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.irrational_of_eventual_positive_lower_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.irrational_of_eventualApproximationLowerBound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.approximationExponentAtMostTwo_iff_eventual",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.irrational_of_approximationExponentAtMostTwo",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.infinite_dirichlet_approximants_of_upper_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.finite_bounded_denominator_near",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.arbitrarilyGoodApproximations_two_of_irrational",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.approximationExponentExactlyTwo_of_upper",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.ArbitrarilyGoodApproximations.of_exponent_le",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.arbitrarilyGoodApproximations_iff_exponent_le_two",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.irrationalityExponent_eq_two_of_exact",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.irrationalityExponent_eq_two_of_eventual_bounds",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.conditional_logarithm_endpoint",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.StrictArbitrarilyGoodApproximations.to_weak",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.strictArbitrarilyGoodApproximations_two_of_irrational",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.residue_derivative_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.derivative_ne_of_residue_ne_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.derivative_ne_simple_pole",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.no_primitive_simple_pole",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.constant_div_X_eq_simple_pole",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.no_primitive_positive_degree",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.logarithmic_derivative_monomial",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.derivative_ne_logarithmic_monomial",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.primitive_coeff",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.derivative_primitive",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.exists_primitive_iff_residue_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.derivative_constant_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.eq_constant_of_derivative_zero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "IrrationalityReview.derivative_zero_iff_constant",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.pure_power_weight_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.ample_combination_coefficients",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.distinct_nat_degrees_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.injective_degrees_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.grouped_degrees_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.grouped_squares_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.grouped_squares_bound_real",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.collision_bound_of_pair_injective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.finite_occupancy_cauchy_schwarz",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.occupancy_threshold_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "LogarithmAudit.subset_occupancy_threshold_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.rational_power_centers_injective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.rational_power_centers_nonzero",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "theorem": "RationalLogReview.finite_rational_power_centers",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+'RationalLogReview.GeometryParameters.sourceWeights_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.sourceWeights_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.sourceWeights_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.sourceWeights_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.targetWeights_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_fibre_product_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.GeometryParameters.curve_product_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_fibre_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_coordinate_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.GeometryParameters.curve_separated_weight_products' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

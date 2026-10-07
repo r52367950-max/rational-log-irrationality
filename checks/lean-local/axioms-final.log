@@ -1,0 +1,81 @@
+'RationalLogReview.margin_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.margin_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.volume_margin_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.small_delta_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.determinant_bounds_inconsistent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.sample_parameter_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.eventually_determinant_bounds_inconsistent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.nonzero_integer_abs_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.integer_matrix_det_abs_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.cleared_integer_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.not_arbitrarilyGoodApproximations_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.rational_has_arbitrarily_large_exact_representations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.irrational_of_eventual_positive_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.irrational_of_eventualApproximationLowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.approximationExponentAtMostTwo_iff_eventual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.irrational_of_approximationExponentAtMostTwo' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.infinite_dirichlet_approximants_of_upper_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.finite_bounded_denominator_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.arbitrarilyGoodApproximations_two_of_irrational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.approximationExponentExactlyTwo_of_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.ArbitrarilyGoodApproximations.of_exponent_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.arbitrarilyGoodApproximations_iff_exponent_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.irrationalityExponent_eq_two_of_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.irrationalityExponent_eq_two_of_eventual_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.conditional_logarithm_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.StrictArbitrarilyGoodApproximations.to_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RationalLogReview.strictArbitrarilyGoodApproximations_two_of_irrational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IrrationalityReview.residue_derivative_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.derivative_ne_of_residue_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.derivative_ne_simple_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.no_primitive_simple_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.constant_div_X_eq_simple_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.no_primitive_positive_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.logarithmic_derivative_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.derivative_ne_logarithmic_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.primitive_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.derivative_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.exists_primitive_iff_residue_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.derivative_constant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.eq_constant_of_derivative_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IrrationalityReview.derivative_zero_iff_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.pure_power_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.ample_combination_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.distinct_nat_degrees_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.injective_degrees_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.grouped_degrees_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.grouped_squares_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.grouped_squares_bound_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.collision_bound_of_pair_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.finite_occupancy_cauchy_schwarz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.occupancy_threshold_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LogarithmAudit.subset_occupancy_threshold_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.rational_power_centers_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.rational_power_centers_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalLogReview.finite_rational_power_centers' depends on axioms: [propext, Classical.choice, Quot.sound]

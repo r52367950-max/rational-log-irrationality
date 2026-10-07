@@ -1,0 +1,49 @@
+{
+  "lean": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "original_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "source_body_changes": 0,
+  "proof_header_patches": 117,
+  "original_root_targets": [
+    "OAI.NumberTheory.PiExponent.Approximation.AdmissibleParameters",
+    "OAI.NumberTheory.PiExponent.Approximation.Comparison",
+    "OAI.NumberTheory.PiExponent.Jets.AffineJetPolynomial",
+    "OAI.NumberTheory.PiExponent.Jets.AffineJetCoefficientInterface",
+    "OAI.NumberTheory.PiExponent.Jets.AffineJetPackets",
+    "OAI.NumberTheory.PiExponent.Approximation.WeightedGlobalSectionBound",
+    "OAI.NumberTheory.PiExponent.Ampleness.WeightedProjectiveAmple",
+    "OAI.NumberTheory.PiExponent.Ampleness.WeightedAffineFrame",
+    "OAI.NumberTheory.PiExponent.Approximation.MatrixCounting",
+    "OAI.NumberTheory.PiExponent.Analysis.TranslationCountLimit",
+    "OAI.NumberTheory.PiExponent.Analysis.LogarithmicContactIdeal"
+  ],
+  "targets_present": true,
+  "successful_log": "toolchain/round2-required-retry1.log",
+  "log_sha256": "200dd9790c903fecdfe27ab9779189d892211cc8ab2b9612a3c05b3f1a18663b",
+  "exit_code": 0,
+  "lake_jobs": 5060,
+  "all_emitted_original_module_count": 845,
+  "additional_original_root_targets": [
+    "OAI.NumberTheory.PiExponent.Approximation.FormalMatrixSurjectivity"
+  ],
+  "additional_successful_log": {
+    "path": "toolchain/round2-formalmatrix-build.log",
+    "sha256": "a3b21026bc055747326e4a9ba794f1d2e8aaca1f5ae024e6fd0242b0710b5050",
+    "exit_code": 0,
+    "lake_jobs": 4347
+  },
+  "degree_root_targets": [
+    "OAI.NumberTheory.PiExponent.Ampleness.ExceptionalCurveDegree",
+    "OAI.NumberTheory.PiExponent.Geometry.CurveNormalizedDegreeTransfer",
+    "OAI.NumberTheory.PiExponent.Geometry.AdmissibleCurveCoordinates",
+    "OAI.NumberTheory.PiExponent.Ampleness.AdmissibleBlowupMargin",
+    "OAI.NumberTheory.PiExponent.Geometry.CurveNormalizationMorphism"
+  ],
+  "degree_successful_log": {
+    "path": "toolchain/round2-degree-retry3.log",
+    "sha256": "ab6e53b00934c6c3551192485c18c6e86ee74721d3e6d88e958f9da261fca807",
+    "exit_code": 0,
+    "lake_jobs": 5198
+  },
+  "degree_targets_present": true
+}
